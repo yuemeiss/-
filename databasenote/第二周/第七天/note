@@ -1,0 +1,104 @@
+## 课堂笔记
+创建一个学生表和班级表并且做一个关联
+Create Table: CREATE TABLE `classes` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) NOT NULL,
+  `isdelete` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8
+
+INSERT INTO classes(id,name) VALUES(1,'1804班'),(2,'1805班'),(3,'1806班')
+
+Create Table: CREATE TABLE `students` (
+  `id` int(11) NOT NULL,
+  `name` varchar(20) NOT NULL,
+  `birthday` date DEFAULT NULL,
+  `gender` int(11) DEFAULT '0',
+  `clsid` int(11) DEFAULT NULL,
+  `isdelete` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `FK_CLSID` (`clsid`),
+  CONSTRAINT `FK_CLSID` FOREIGN KEY (`clsid`) REFERENCES `classes` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+
+INSERT INTO students(id,name,birthday,gender,clsid) VALUES (180501,'郑程 峰','19940108',1,2),  (180502,'魏国瑱','19960209',1,2), (180503,'李舒静','19980311',0,2),(180504,'王含青','19990415',0,2), (180505,'张斌','19950419',1,2);
+
+INSERT INTO students(id,name,birthday,gender,clsid) VALUES (180401,'李闯','19900811',1,1),  (180402,'李文永','19970511',1,1), (180403,'张婷','19980311',0,1),(180404,'杨振亚','19980415',0,1), (180405,'韩迪','19940419',1,1);
+
+INSERT INTO students(id,name,birthday,gender,clsid) VALUES (180601,'李哥','19990910',1,3),  (180602,'李文','19940511',1,3), (180603,'张婷婷','19940318',0,3),(180604,'杨亚','19960518',0,3), (180605,'韩正','19930420',1,3);
+
+如何进行多张表的查询？
+联结查询
+#内联结？
+inner join 表名 on 表名.外键=表名.主键
+select * from students inner join classes on students.clsid=classes.id;
+
+#添加条件
+select * from students inner join classes on students.clsid=classes.id where classes.id > 1;
+
+#为表添加别名
+select s.id,s.name,c.name from students as s inner join classes as c on s.clsid=c.id where c.id > 1;
+
+外联结？
+左联结
+left join 表名 on 表名.外键=表名.主键
+select s.id,s.name,c.name from students as s left join classes as c on s.clsid=c.id where c.id > 1;
+
+右联结
+right join 表名 on 表名.外键=表名.主键
+select s.id,s.name,c.name from students as s right join classes as c on s.clsid=c.id where c.id > 1;
+
+
+#多个表之间的关联查询
+我们需要创建一个教师表，每一个班级分配一个教师
+1.创建一个教师表
+2.在班级表里面设置一个外键，为教师表里的主键
+#询出学生的姓名，在哪个班级，是哪个班主任
+select students.name,classes.name,teachers.name from students inner join classes on students.clsid=classes.id inner join teachers on classes.teacherid=teachers.id;
+##使用外联结
+select students.name,classes.name,teachers.name from students right join classes on students.clsid=classes.id left join teachers on classes.teacherid=teachers.id;
+
+
+
+##子查询： 子查询是嵌入到主查询中 子查询是辅助主查询的,
+要么充当条件,要么充当数据源 子查询是可以独立存在的语句,
+是一条完整的 select
+#子查询作为条件
+select * from students where clsid in(select id from classes);
+select * from students where age < (select avg(age) from students);
+
+#子查询作为数据源（列）
+select (select avg(age) from students) as avgage from students where age = 18;
+
+子查询的一个小小分类根据子查询返回的结果：
+标量 子查询: 子查询返回的结果是一个数据(一行一列)
+列 子查询: 返回的结果是一列(一列多行)
+行 子查询: 返回的结果是一行(一行多列)
+
+子查询中特定关键字使用
+
+in 范围
+格式: 主查询 where 条件 in (列子查询)
+select * from students where clsid in(select id from classes);
+
+any 相当于或条件（只要满足的any中的任意一个条件即可)
+select * from students where clsid>any(select id from classes);
+格式: 主查询 where 条件 (比较运算符) any (列子查询)
+
+all 相当于and（必须同时满足and括号里面的条件）
+select * from students where clsid!=any(select id from classes);
+格式: 主查询 where 条件 (比较运算符) all (列子查询)
+
+union组合查询
+UNION:使用UNION连接的查询语句，会将查询到的结果汇总并去重（去除重复的记录）
+select * from students where id > 180506 UNION select * from students where gender=1 order by id desc limit 3;
+＝>
+select * from students where id > 180506 or gender=1 order by id desc limit 3;
+
+UNION ALL：使用UNION连接的查询语句，会将查询到的结果汇总不去重，假如有形同的记录会返回多条
+select * from students where id > 180506 UNION ALL select * from students where gender=1 order by id desc limit 3;
+
+
+
+

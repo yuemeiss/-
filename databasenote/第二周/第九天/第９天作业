@@ -1,0 +1,51 @@
+作业１：
+１．把数据库中的数据添加到３０万以上
+２．对比使用索引和不适用索引查询的结果（时差）
+３．注意尝试测试非命中索引的情况，以后要注意：
+
+case1:
+like '%xx' 
+select * from tb1 where email like '%cn';
+
+case2:
+使用函数 
+select * from tb1 where reverse(email) = 'wupeiqi';
+
+case3:
+or 
+select * from tb1 where nid = 1 or name = 'seven@live.com';
+特别的：当or条件中有未建立索引的列才失效，以下会走索引 select * from tb1 where nid = 1 or name = 'seven'; select * from tb1 where nid = 1 or name = 'seven@live.com' and email = 'alex'
+
+case4:
+类型不一致 
+如果列是字符串类型，传入条件是必须用引号引起来，不然... select * from tb1 where email = 999;
+
+case5:
+!= 
+select * from tb1 where email != 'alex'
+特别的：如果是主键，则还是会走索引 select * from tb1 where nid != 123
+
+case6:
+>
+select * from tb1 where email > 'alex'
+特别的：如果是主键或索引是整数类型，则还是会走索引 select * from tb1 where nid > 123 select * from tb1 where num > 123
+
+case7:
+order by 
+select name from tb1 order by email desc;
+当根据索引排序时候，选择的映射如果不是索引，则不走索引 特别的：如果对主键排序，则还是走索引： select * from tb1 order by nid desc;
+
+case8:
+组合索引最左前缀 
+如果组合索引为：(name,email) 
+name and email -- 会使用索引 
+name -- 会使用索引 
+email -- 不会使用索引
+
+作业２：
+把昨天晚上的作业答案好好看看，将自己不会的操作，练习一下
+
+作业３：
+复习明天的课程
+数据的备份以及权限管理方面的内容
+

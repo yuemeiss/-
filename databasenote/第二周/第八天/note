@@ -1,0 +1,55 @@
+自关联：自连接查询其实等同于连接查询，
+需要两张表，只不过它的左表（父表）和右表（子表）
+都是自己。做自连接查询的时候，是自己和自己连接，
+分别给父表和子表取两个不同的别名，然后附上连接条件。
+
+mysql> create table areas(
+    -> id int,
+    -> name varchar(255) not null,
+    -> pid int,
+    -> primary key(id)
+    -> );
+Query OK, 0 rows affected (0.02 sec)
+### 插入省
+insert into areas(id,name) values(1,'山东'),(2,'河北'),(3,'黑龙江'),(4,' 湖北'),(5,'湖南');
+### 插入市
+insert into areas(id,name,pid) values(7,'武汉',4),(8,'随州',4),(9,'枣阳',4),(10,'邯郸',2),(11,'保定',2),(12,'黑龙江１号',3),(13,'黑龙江2号',3),(14,'张家 界',5);
+### 插入县
+insert into areas(id,name,pid) values(15,'武汉县',7),(16,'随州县',8),(17,'邯郸县',10);
+
+#查出市的省份信息
+select * from areas as shi inner join areas as sheng on shi.pid=sheng.id;
+
+#查出县所在的市和省
+select * from areas as shi inner join areas as sheng on shi.pid=sheng.id  inner join areas as xian on xian.pid=shi.id;
+select xian.name,shi.name,sheng.name from areas as shi inner join areas as sheng on shi.pid=sheng.id  inner join areas as xian on xian.pid=shi.id;
+
+
+视图：
+１．从原始表中导出的一个表
+２．它是一个虚表
+
+简单来说：
+
+提高了重用性，简化了查询
+对数据库重构，却不影响程序的运行
+提高了安全性能，可以对不同的用户（只对用户开放部分列）
+让数据更加清晰
+
+１．创建视图
+create view 视图的名称　as 语句
+
+插入：
+假如要在虚表中插入数据，要保证虚表里面的列必须含有实表里面没有默认值的列
+
+select name,id from areas where id > 9
+select * from v_all_count where id > 18;
+
+select select name,id from areas where id > 9 AND id>18;
+
+创建一个临时表：（真实存在）
+create　algorithm=temptable view 视图名称 as select语句;
+
+印象笔记：２０节
+
+事务：２１节
