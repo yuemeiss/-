@@ -1,0 +1,196 @@
+#远程链接(登录)
+mongo -h ip:prot(端口)
+mongo --host ip --port port
+
+数据库的操作
+show dbs 
+db
+use dbname
+db.dropDatabase()
+集合
+db.createCollection('集合名')
+db.createCollection('集合名',{capped:true,size:1000(字节大小),max:100(最大文档数量)})
+db.colname.drop()
+文档的操作：
+document = {
+    name:'xxx',
+    age:20,
+}
+db.colname.insert(document)
+db.colname.insert([document,document1,...])
+db.colname.insertOne(document)
+db.colname.insertMnay([documnet,document2,document......)
+
+删除
+db.colname.remove({})
+db.colname.remove({条件})
+db.colname.remove({条件},1) -> db.colname.remove({条件},{justOne:true})
+
+修改
+#更新文档中的某些键
+db.colname.update({条件},{$set:{key:'values'}}})
+#全文档更新
+db.colname.update({条件},{key:values,key1:values1....})
+#save()修改
+db.colname.save({_id:'xx',key:values,key:values1.....})
+
+查询
+db.colname.find()
+db.colname.find({条件})
+
+限制查询
+db.colname.find({条件}).limit(num)
+
+跳过:skip
+db.colname.find({条件}).skip(num) #可以和limit()组合使用，不分先后
+排序（1:升序，-1:降序）
+db.colname.find({条件}).sort({key:1|-1})
+
+投影　project(0:不显示，1,显示)
+document= {
+    id : '23',
+    name:'xxx',
+    age:20,
+    gender；’男‘,
+    class:'1804',
+}
+db.colname.find({},{name:1,age:1,_id:0}) #id除外，其他不能１和０　出现在一起
+
+去重
+db.colname.distinct('key',{条件})
+
+计算
+db.colname.find().count()
+
+$type 返回键值为字符串类型的文档
+db.colname.find({age:{$type:'string'}})
+
+比较运算符
+$lt:小于　　
+$lte:小于或等于
+$gt：大于
+$gte:大于或等于
+$ne:不等于
+
+
+#逻辑运算符
+$or 
+
+#范围运算符
+$in 
+$nin 取反
+
+#正则查询
+db.colname.find({name:/正则/})
+db.colname.find({name:{$reges:'正则'}})
+
+自定义查询
+db.colname.find({$where:function(){return this.name == 'xxx'}})
+
+聚合函数
+管道
+$group $match $project $limit $skip $unwind $sort
+
+表达s
+
+
+索引
+
+
+ＴＴＬ补充
+_id 不能设置为日期索引
+
+
+#建立索引的注意事项　优点和　缺点
+优点：相当于创建了一个目录，能够提高查找的效率
+缺点:１ 对于插入　删除　修改　数据会变慢，因为在做插入，删除，修改数据的时候，索引也会随之变化，
+这样会降低效率
+２．创建索引会产生额外的数据，增加我们对硬件的要求，会额外占用内存
+
+#创建索引的注意事项
+１．尽量减少创建不必要的索引
+２．经常变动的键不必要创建索引
+３．不会成为查询条件的值不需要创建索引
+４．mongodb集合中最大的索引个数不能超过６４个，索引的名称不能超过１２８个字符，复合索引最大只能有３１个字段
+５.不能命中索引的情况:$in  $nin 范围运算符，以及比较运算符
+６．mongodb中索引存放在内存中，必须确保索引的大小不会超过内存，如果超过内存的最大限制，mongodb会自动删除一些索引
+
+创建用户
+创建超级用户
+权限：root   read readWrite
+1.use admin
+2.db.createUser({
+    user:'用户名',
+    pwd:'密码',
+    roles:[{'role':'root',db:'admin'}]
+})
+3.打开mongodb的安全设置
+sudo vim /etc/mongod.conf
+4.修改
+security:
+    authorization: enabled
+
+5.重启服务器
+sudo service mongod restart
+6.使用超管登录
+mongo -u 用户名　-p 密码　--authenticationDatabase 'admin'
+
+创建一个普通用户
+１．use dbname
+2. db.createUser({
+    user:'用户名',
+    pwd:'密码',
+    roles:[{'role':'readWrite',db:'dbname'}]
+})
+
+mongo -u 用户名　-p 密码　--authenticationDatabase 'dbname'
+
+#修改用户信息
+#修改密码
+db.updateUser('username',{pwd:'newpassword'})
+#修改用户名
+db.updateUser('username',{user:'newusername'})
+#删除权限
+db.revokeRolesFromUser('username',[{role:'权限',db:'dbname'}])
+#添加权限
+db.grantRolesToUser('username',[{role:'权限',db:'dbname'}])
+
+#数据库备份
+mongodump -h dbhost -d dbname -o 目标路径
+#数据库恢复
+mongorestore -h dbhost -d dbname --dir 备份文件的路径
+
+
+数据的导出(json,csv)
+导出json数据
+mongoexport -d dbname -c colname -o 导出文件的路经/文件名.json　--type json
+
+导出csv 数据(表格)
+mongoexport -d dbname -c colname -o 路径/文件名.csv --type csv -f '键名，键名，...'
+
+导入json数据
+mongoimport -d dbname -c colname --file 路径/文件名.json --type json
+
+导入csv数据
+mongoimport -d dbname -c colname --file 路径/文件名.json --type csv -filed '键名，键名，....'
+mongoimport -d dbname -c colname --file 路径/文件名.json --haedline csv -filed '键名，键名，....'
+
+#副本集
+目的:
+1.防止数据灾难
+２．实时备份，实现主从节点的一致性
+３、读写分离
+４．无宕机行为
+５．分担主节点的压力
+缺点：具有中心化，所有的增删改操作都需要在主节点完成
+对主节点的压力较大，对主机的性能要求较高
+
+#如何实现副本集
+#开启mongod服务
+mongod --bind_ip
+
+
+
+
+
+
