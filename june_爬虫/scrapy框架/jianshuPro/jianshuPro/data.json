@@ -1,0 +1,37 @@
+{
+    "os": "linux",
+    "user_signed_in": false,
+    "note_show": {
+        "follow_state": 0,
+        "uuid": "570a3df1-afe7-4e30-a729-00351f6b89f0",
+        "is_author": false,
+        "is_liked_note": false,
+        "is_following_author": false
+    },
+    "read_font": "font2",
+    "read_mode": "day",
+    "note": {
+        "total_rewards_count": 0,
+        "views_count": 103,
+        "commentable": true,
+        "paid_type": "free",
+        "author": {
+            "followers_count": 39556,
+            "total_wordage": 59686,
+            "nickname": "雷春",
+            "total_likes_count": 1139
+        },
+        "featured_comments_count": 0,
+        "is_author": false,
+        "user_id": 9924503,
+        "likes_count": 6,
+        "comments_count": 4,
+        "paid_content_accessible": false,
+        "paid": false,
+        "slug": "f1d006647040",
+        "id": 36227239,
+        "public_wordage": 301,
+        "notebook_id": 20762755
+    },
+    "locale": "zh-CN"
+}

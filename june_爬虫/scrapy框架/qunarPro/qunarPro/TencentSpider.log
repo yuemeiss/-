@@ -1,0 +1,1441 @@
+2018-11-02 10:32:41 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 10:32:41 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 10:32:41 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'qunarPro.spiders', 'BOT_NAME': 'qunarPro', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 2, 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['qunarPro.spiders'], 'LOG_FILE': 'TencentSpider.log'}
+2018-11-02 10:32:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-11-02 10:32:42 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 10:32:42 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 10:32:42 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 10:32:42 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 10:32:42 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 10:32:48 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-02 10:32:48 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 885,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 86439,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 2, 2, 32, 48, 133896),
+ 'log_count/INFO': 7,
+ 'memusage/max': 1520836608,
+ 'memusage/startup': 1520836608,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2018, 11, 2, 2, 32, 42, 97870)}
+2018-11-02 10:32:48 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-02 10:35:37 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 10:35:37 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 10:35:37 [scrapy.crawler] INFO: Overridden settings: {'COOKIES_ENABLED': False, 'NEWSPIDER_MODULE': 'qunarPro.spiders', 'SPIDER_MODULES': ['qunarPro.spiders'], 'BOT_NAME': 'qunarPro', 'LOG_LEVEL': 'INFO', 'LOG_FILE': 'TencentSpider.log', 'DOWNLOAD_DELAY': 2}
+2018-11-02 10:35:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole']
+2018-11-02 10:35:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 10:35:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 10:35:37 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 10:35:37 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 10:35:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 10:35:42 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-02 10:35:42 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 885,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 86454,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 2, 2, 35, 42, 890027),
+ 'log_count/INFO': 7,
+ 'memusage/max': 1525981184,
+ 'memusage/startup': 1525981184,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2018, 11, 2, 2, 35, 37, 886410)}
+2018-11-02 10:35:42 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-02 10:42:56 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 10:42:56 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 10:42:56 [scrapy.crawler] INFO: Overridden settings: {'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 2, 'LOG_FILE': 'TencentSpider.log', 'NEWSPIDER_MODULE': 'qunarPro.spiders', 'BOT_NAME': 'qunarPro', 'SPIDER_MODULES': ['qunarPro.spiders'], 'LOG_LEVEL': 'INFO'}
+2018-11-02 10:42:56 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-02 10:42:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 10:42:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 10:42:56 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 10:42:56 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 10:42:56 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 10:43:01 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-02 10:43:01 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 885,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 86650,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 2, 2, 43, 1, 856601),
+ 'log_count/INFO': 7,
+ 'memusage/max': 1532899328,
+ 'memusage/startup': 1532899328,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2018, 11, 2, 2, 42, 56, 346782)}
+2018-11-02 10:43:01 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-02 10:45:12 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 10:45:12 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 10:45:12 [scrapy.crawler] INFO: Overridden settings: {'COOKIES_ENABLED': False, 'SPIDER_MODULES': ['qunarPro.spiders'], 'NEWSPIDER_MODULE': 'qunarPro.spiders', 'LOG_FILE': 'TencentSpider.log', 'BOT_NAME': 'qunarPro', 'DOWNLOAD_DELAY': 2, 'LOG_LEVEL': 'INFO'}
+2018-11-02 10:45:12 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2018-11-02 10:45:12 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 10:45:12 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 10:45:12 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 10:45:12 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 10:45:12 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 10:45:19 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-02 10:45:19 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 885,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 86517,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 2, 2, 45, 19, 125806),
+ 'log_count/INFO': 7,
+ 'memusage/max': 1536032768,
+ 'memusage/startup': 1536032768,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2018, 11, 2, 2, 45, 12, 763239)}
+2018-11-02 10:45:19 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-02 10:47:59 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 10:47:59 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 10:47:59 [scrapy.crawler] INFO: Overridden settings: {'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['qunarPro.spiders'], 'COOKIES_ENABLED': False, 'LOG_FILE': 'TencentSpider.log', 'NEWSPIDER_MODULE': 'qunarPro.spiders', 'DOWNLOAD_DELAY': 2, 'BOT_NAME': 'qunarPro'}
+2018-11-02 10:47:59 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2018-11-02 10:47:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 10:47:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 10:47:59 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 10:47:59 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 10:47:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 10:48:06 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-02 10:48:06 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 885,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 86504,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 2, 2, 48, 6, 108901),
+ 'log_count/INFO': 7,
+ 'memusage/max': 1548840960,
+ 'memusage/startup': 1548840960,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2018, 11, 2, 2, 47, 59, 916731)}
+2018-11-02 10:48:06 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-02 10:52:43 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 10:52:43 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 10:52:43 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'qunarPro.spiders', 'LOG_LEVEL': 'INFO', 'LOG_FILE': 'TencentSpider.log', 'BOT_NAME': 'qunarPro', 'SPIDER_MODULES': ['qunarPro.spiders'], 'DOWNLOAD_DELAY': 2, 'COOKIES_ENABLED': False}
+2018-11-02 10:52:43 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-02 10:52:43 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 10:52:43 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 10:52:43 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 10:52:43 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 10:52:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 10:52:48 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-02 10:52:48 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 885,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 86524,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 2, 2, 52, 48, 473059),
+ 'log_count/INFO': 7,
+ 'memusage/max': 1554857984,
+ 'memusage/startup': 1554857984,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2018, 11, 2, 2, 52, 43, 868360)}
+2018-11-02 10:52:48 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-02 10:52:56 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 10:52:56 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 10:52:56 [scrapy.crawler] INFO: Overridden settings: {'SPIDER_MODULES': ['qunarPro.spiders'], 'BOT_NAME': 'qunarPro', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 2, 'NEWSPIDER_MODULE': 'qunarPro.spiders', 'LOG_LEVEL': 'INFO', 'LOG_FILE': 'TencentSpider.log'}
+2018-11-02 10:52:56 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-11-02 10:52:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 10:52:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 10:52:56 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 10:52:56 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 10:52:56 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 10:52:57 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 10:52:57 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-11-02 10:57:27 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 10:57:27 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 10:57:27 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'qunarPro', 'NEWSPIDER_MODULE': 'qunarPro.spiders', 'LOG_LEVEL': 'INFO', 'COOKIES_ENABLED': False, 'LOG_FILE': 'TencentSpider.log', 'SPIDER_MODULES': ['qunarPro.spiders'], 'DOWNLOAD_DELAY': 2}
+2018-11-02 10:57:27 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.telnet.TelnetConsole']
+2018-11-02 10:57:27 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 10:57:27 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 10:57:27 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 10:57:27 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 10:57:27 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 10:57:46 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 10:57:46 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-11-02 11:10:57 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 11:10:57 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 11:10:57 [scrapy.crawler] INFO: Overridden settings: {'SPIDER_MODULES': ['qunarPro.spiders'], 'BOT_NAME': 'qunarPro', 'LOG_LEVEL': 'INFO', 'LOG_FILE': 'TencentSpider.log', 'NEWSPIDER_MODULE': 'qunarPro.spiders', 'DOWNLOAD_DELAY': 2, 'COOKIES_ENABLED': False}
+2018-11-02 11:10:57 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-11-02 11:10:57 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 11:10:57 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 11:10:57 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 11:10:57 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 11:10:57 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 11:10:59 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 11:10:59 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-11-02 11:11:25 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 11:11:25 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 11:11:25 [scrapy.crawler] INFO: Overridden settings: {'SPIDER_MODULES': ['qunarPro.spiders'], 'COOKIES_ENABLED': False, 'LOG_LEVEL': 'INFO', 'DOWNLOAD_DELAY': 2, 'LOG_FILE': 'TencentSpider.log', 'BOT_NAME': 'qunarPro', 'NEWSPIDER_MODULE': 'qunarPro.spiders'}
+2018-11-02 11:11:25 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole']
+2018-11-02 11:11:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 11:11:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 11:11:25 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 11:11:25 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 11:11:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 11:11:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://zlyg1.package.qunar.com/user/detail.jsp?id=3205476661&rttp=%E5%91%A8%E8%BE%B9%E6%B8%B8&dep=5YyX5Lqs&arr=5om%2F5b63LOays%2BWMlyzljY7ljJcs5pmu5a6B5a%2B6LOmBv%2BaakeWxseW6hCzpobvlvKXnpo%2Flr7%2FkuYvlupks56Os6ZSk5bOwLOaZrumZgOWul%2BS5mOS5i%2BW6mSzmib%2Flvrfpgb%2FmmpHlsbHluoQs572E5qOw5bOw&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_zlyg1&func=6Lef5Zui5ri4&pid=3205476661&rid=12049570&vd=6L%2Bc5rSL5Zu95peF> (referer: https://dujia.qunar.com/pi/detail_12049570?vendor=%E8%BF%9C%E6%B4%8B%E5%9B%BD%E6%97%85&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E6%89%BF%E5%BE%B7%2C%E6%B2%B3%E5%8C%97%2C%E5%8D%8E%E5%8C%97%2C%E6%99%AE%E5%AE%81%E5%AF%BA%2C%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%2C%E9%A1%BB%E5%BC%A5%E7%A6%8F%E5%AF%BF%E4%B9%8B%E5%BA%99%2C%E7%A3%AC%E9%94%A4%E5%B3%B0%2C%E6%99%AE%E9%99%80%E5%AE%97%E4%B9%98%E4%B9%8B%E5%BA%99%2C%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%2C%E7%BD%84%E6%A3%B0%E5%B3%B0&ttsRouteType=%E5%91%A8%E8%BE%B9%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 36, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:11:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://lylx4.package.qunar.com/user/detail.jsp?id=3072401554&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s6ZKf6byT5qW8LOWkqeWuiemXqOW5v%2BWcuizljJfkuqzlpKflraYs5piO5Y2B5LiJ6Zm1LOS6uuawkeWkp%2BS8muWggizmuIXljY7lpKflraYs6bif5bei&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_lylx4&func=6Lef5Zui5ri4&pid=3072401554&rid=26784576&vd=5piG5piO5LiH5ZCI5Zu96ZmF5peF6KGM56S%2B5peX6Iiw5bqX> (referer: https://dujia.qunar.com/pi/detail_26784576?vendor=%E6%98%86%E6%98%8E%E4%B8%87%E5%90%88%E5%9B%BD%E9%99%85%E6%97%85%E8%A1%8C%E7%A4%BE%E6%97%97%E8%88%B0%E5%BA%97&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E9%92%9F%E9%BC%93%E6%A5%BC%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%2C%E6%98%8E%E5%8D%81%E4%B8%89%E9%99%B5%2C%E4%BA%BA%E6%B0%91%E5%A4%A7%E4%BC%9A%E5%A0%82%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 36, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:11:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://lxtx8.package.qunar.com/user/detail.jsp?id=1904280005&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5aSp5a6J6Zeo5bm%2F5Zy6LOWMl%2BS6rOWkp%2BWtpizmmI7ljYHkuInpmbUs5oGt546L5bqcLOa4heWNjuWkp%2BWtpizpuJ%2Flt6Is5YWr6L6%2B5bKt6ZW%2F5Z%2BO&ftdt=2018-11-05%2C2018-11-05#vid=qb2c_lxtx8&func=6Lef5Zui5ri4&pid=1904280005&rid=26563837&vd=5peF6KGM5aSp5LiL> (referer: https://dujia.qunar.com/pi/detail_26563837?vendor=%E6%97%85%E8%A1%8C%E5%A4%A9%E4%B8%8B&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%2C%E6%98%8E%E5%8D%81%E4%B8%89%E9%99%B5%2C%E6%81%AD%E7%8E%8B%E5%BA%9C%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-11-05,2018-11-05&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 36, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:11:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://bjbh1.package.qunar.com/user/detail.jsp?id=856878074&osrc=tts_tuan&rttp=%E5%91%A8%E8%BE%B9%E6%B8%B8&dep=5YyX5Lqs&arr=5om%2F5b63LOays%2BWMlyzljY7ljJcs5pmu5a6B5a%2B6LOajkuanjOWxsSzpgb%2FmmpHlsbHluoQs5pmu6ZmA5a6X5LmY5LmL5bqZLOaJv%2BW%2Bt%2BmBv%2BaakeWxseW6hCzmib%2Flvrfmma7lroHlr7os5bCP5biD6L6%2B5ouJ5a6r&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_bjbh1&func=6Lef5Zui5ri4&pid=856878074&rid=9454267&vd=5YyX5Lqs5YyX5rW35Zu96ZmF5peF6KGM56S%2B> (referer: https://dujia.qunar.com/pi/detail_9454267?vendor=%E5%8C%97%E4%BA%AC%E5%8C%97%E6%B5%B7%E5%9B%BD%E9%99%85%E6%97%85%E8%A1%8C%E7%A4%BE&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E6%89%BF%E5%BE%B7%2C%E6%B2%B3%E5%8C%97%2C%E5%8D%8E%E5%8C%97%2C%E6%99%AE%E5%AE%81%E5%AF%BA%2C%E6%A3%92%E6%A7%8C%E5%B1%B1%2C%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%2C%E6%99%AE%E9%99%80%E5%AE%97%E4%B9%98%E4%B9%8B%E5%BA%99%2C%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%2C%E6%89%BF%E5%BE%B7%E6%99%AE%E5%AE%81%E5%AF%BA%2C%E5%B0%8F%E5%B8%83%E8%BE%BE%E6%8B%89%E5%AE%AB&ttsRouteType=%E5%91%A8%E8%BE%B9%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 36, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:11:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://jjxx3.package.qunar.com/user/detail.jsp?id=3791794551&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5aSp5a6J6Zeo5bm%2F5Zy6LOWMl%2BS6rOWkp%2BWtpizlhavovr7lsq3lm73lrrbmo67mnpflhazlm60s5piO5Y2B5LiJ6Zm1LOa4heWNjuWkp%2BWtpizpuJ%2Flt6Is5bGF5bq45YWz6ZW%2F5Z%2BO&ftdt=2018-12-01%2C2018-12-01#vid=qb2c_qltxs8&func=6Lef5Zui5ri4&pid=3791794551&rid=5168007&vd=6bqS6bqf5aSp5LiLLeengeS6uuiuouWItuWTgei0qOa4uA%3D%3D> (referer: https://dujia.qunar.com/pi/detail_5168007?vendor=%E9%BA%92%E9%BA%9F%E5%A4%A9%E4%B8%8B-%E7%A7%81%E4%BA%BA%E8%AE%A2%E5%88%B6%E5%93%81%E8%B4%A8%E6%B8%B8&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%2C%E6%98%8E%E5%8D%81%E4%B8%89%E9%99%B5%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2%2C%E5%B1%85%E5%BA%B8%E5%85%B3%E9%95%BF%E5%9F%8E&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-12-01,2018-12-01&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 36, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:11:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://kygj7.package.qunar.com/user/detail.jsp?id=3430712339&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5aSp5a6J6Zeo5bm%2F5Zy6LOWMl%2BS6rOWkp%2BWtpizmuIXljY7lpKflraYs6bif5beiLOWFq%2Bi%2BvuWyremVv%2BWfjizkuK3lm73lm73lrrblpKfliafpmaIs5aWl5p6X5Yy55YWL5YWs5Zut&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_bjkygj&func=6Lef5Zui5ri4&pid=3430712339&rid=2128441&vd=5o%2B96IOc5YyX5Lqs6KGM> (referer: https://dujia.qunar.com/pi/detail_2128441?vendor=%E6%8F%BD%E8%83%9C%E5%8C%97%E4%BA%AC%E8%A1%8C&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E%2C%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%A4%A7%E5%89%A7%E9%99%A2%2C%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E5%85%AC%E5%9B%AD&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 36, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:11:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://klsx1.package.qunar.com/user/detail.jsp?id=1550696289&osrc=tts_tuan&rttp=%E5%91%A8%E8%BE%B9%E6%B8%B8&dep=5YyX5Lqs&arr=5aSq5Y6fLOaZi%2BS4rSzlv7vlt54s5bGx6KW%2FLOWNjuWMlyzkuK3lm73nhaTngq3ljZrnianppoYs5Lic5rmW6YaL5ZutLOaZi%2BeloCzkuZTlrrblpKfpmaIs5bGx6KW%2F5pmL56Wg5Y2a54mp6aaG&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_klsx1&func=6Lef5Zui5ri4&pid=1550696289&rid=5870661&vd=5b%2Br5LmQ5bGx6KW%2F5ri4> (referer: https://dujia.qunar.com/pi/detail_5870661?vendor=%E5%BF%AB%E4%B9%90%E5%B1%B1%E8%A5%BF%E6%B8%B8&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%A4%AA%E5%8E%9F%2C%E6%99%8B%E4%B8%AD%2C%E5%BF%BB%E5%B7%9E%2C%E5%B1%B1%E8%A5%BF%2C%E5%8D%8E%E5%8C%97%2C%E4%B8%AD%E5%9B%BD%E7%85%A4%E7%82%AD%E5%8D%9A%E7%89%A9%E9%A6%86%2C%E4%B8%9C%E6%B9%96%E9%86%8B%E5%9B%AD%2C%E6%99%8B%E7%A5%A0%2C%E4%B9%94%E5%AE%B6%E5%A4%A7%E9%99%A2%2C%E5%B1%B1%E8%A5%BF%E6%99%8B%E7%A5%A0%E5%8D%9A%E7%89%A9%E9%A6%86&ttsRouteType=%E5%91%A8%E8%BE%B9%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 36, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:11:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://zztv3.package.qunar.com/user/detail.jsp?id=1413855272&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5aSp5a6J6Zeo5bm%2F5Zy6LOaBreeOi%2BW6nCzmuIXljY7lpKflraYs6bif5beiLOWFq%2Bi%2BvuWyremVv%2BWfjizlpaXmnpfljLnlhYvlhazlm60s5YyX5rW35YWs5Zut&ftdt=2018-11-27%2C2018-11-27#vid=qb2c_xyjll&func=6Lef5Zui5ri4&pid=1413855272&rid=34553779&vd=5Zi75ri46K6w5peF5ri4572R> (referer: https://dujia.qunar.com/pi/detail_34553779?vendor=%E5%98%BB%E6%B8%B8%E8%AE%B0%E6%97%85%E6%B8%B8%E7%BD%91&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E6%81%AD%E7%8E%8B%E5%BA%9C%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E%2C%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E5%85%AC%E5%9B%AD%2C%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-11-27,2018-11-27&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 36, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:11:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://lxtx1.package.qunar.com/user/detail.jsp?id=219538233&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5aSp5a6J6Zeo5bm%2F5Zy6LOWMl%2BS6rOWkp%2BWtpizmga3njovlupws5riF5Y2O5aSn5a2mLOm4n%2BW3oiznuqLliaflnLos5YWr6L6%2B5bKt6ZW%2F5Z%2BO&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_lxtx&func=6Lef5Zui5ri4&pid=219538233&rid=17943376&vd=6b6Z6KGM5aSp5LiL5peF6KGM> (referer: https://dujia.qunar.com/pi/detail_17943376?vendor=%E9%BE%99%E8%A1%8C%E5%A4%A9%E4%B8%8B%E6%97%85%E8%A1%8C&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%2C%E6%81%AD%E7%8E%8B%E5%BA%9C%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2%2C%E7%BA%A2%E5%89%A7%E5%9C%BA%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 36, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:11:53 [scrapy.core.scraper] ERROR: Spider error processing <GET https://ukym3.package.qunar.com/user/detail.jsp?id=3543781659&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5YyX5Lqs5aSn5a2mLOa4heWNjuWkp%2BWtpizkuK3lm73kurrmsJHpnanlkb3lhpvkuovljZrnianppoYs5YWr6L6%2B5bKt6ZW%2F5Z%2BOLOS4reWbveWbveWutuWkp%2BWJp%2BmZoizlpaXmnpfljLnlhYvlhazlm60s5ZyG5piO5Zut&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_zlzs&func=6Lef5Zui5ri4&pid=3543781659&rid=15273991&vd=5Lit5peF5oC756S%2B57u85ZCI5peF5ri45Lit5b%2BD> (referer: https://dujia.qunar.com/pi/detail_15273991?vendor=%E4%B8%AD%E6%97%85%E6%80%BB%E7%A4%BE%E7%BB%BC%E5%90%88%E6%97%85%E6%B8%B8%E4%B8%AD%E5%BF%83&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E9%9D%A9%E5%91%BD%E5%86%9B%E4%BA%8B%E5%8D%9A%E7%89%A9%E9%A6%86%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E%2C%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%A4%A7%E5%89%A7%E9%99%A2%2C%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E5%85%AC%E5%9B%AD%2C%E5%9C%86%E6%98%8E%E5%9B%AD&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 36, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:11:54 [scrapy.core.scraper] ERROR: Spider error processing <GET https://lxtx1.package.qunar.com/user/detail.jsp?id=1856982282&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5aSp5a6J6Zeo5bm%2F5Zy6LOWMl%2BS6rOWkp%2BWtpizmga3njovlupws5riF5Y2O5aSn5a2mLOm4n%2BW3oiznuqLliaflnLos5YWr6L6%2B5bKt6ZW%2F5Z%2BO&ftdt=2018-11-04%2C2018-11-04#vid=qb2c_lxtx&func=6Lef5Zui5ri4&pid=1856982282&rid=14894703&vd=6b6Z6KGM5aSp5LiL5peF6KGM> (referer: https://dujia.qunar.com/pi/detail_14894703?vendor=%E9%BE%99%E8%A1%8C%E5%A4%A9%E4%B8%8B%E6%97%85%E8%A1%8C&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%2C%E6%81%AD%E7%8E%8B%E5%BA%9C%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2%2C%E7%BA%A2%E5%89%A7%E5%9C%BA%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-11-04,2018-11-04&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 36, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:12:00 [scrapy.core.scraper] ERROR: Spider error processing <GET https://jlaa3.package.qunar.com/user/detail.jsp?id=894944922&osrc=tts_tuan&rttp=%E5%91%A8%E8%BE%B9%E6%B8%B8&dep=5YyX5Lqs&arr=5om%2F5b63LOays%2BWMlyzljY7ljJcs5pmu5a6B5a%2B6LOmBv%2BaakeWxseW6hCzno6zplKTls7As56Os6ZSk5bOw5Zu95a625qOu5p6X5YWs5ZutLOaZrumZgOWul%2BS5mOS5i%2BW6mSzmib%2Flvrfpgb%2FmmpHlsbHluoQs572E5qOw5bOw&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_jlaa3&func=6Lef5Zui5ri4&pid=894944922&rid=33627043&vd=5Lit5peF572R5LiK5peX6Iiw5bqX> (referer: https://dujia.qunar.com/pi/detail_33627043?vendor=%E4%B8%AD%E6%97%85%E7%BD%91%E4%B8%8A%E6%97%97%E8%88%B0%E5%BA%97&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E6%89%BF%E5%BE%B7%2C%E6%B2%B3%E5%8C%97%2C%E5%8D%8E%E5%8C%97%2C%E6%99%AE%E5%AE%81%E5%AF%BA%2C%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%2C%E7%A3%AC%E9%94%A4%E5%B3%B0%2C%E7%A3%AC%E9%94%A4%E5%B3%B0%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%2C%E6%99%AE%E9%99%80%E5%AE%97%E4%B9%98%E4%B9%8B%E5%BA%99%2C%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%2C%E7%BD%84%E6%A3%B0%E5%B3%B0&ttsRouteType=%E5%91%A8%E8%BE%B9%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 36, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:12:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://jlaa3.package.qunar.com/user/detail.jsp?id=1098258398&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5aSp5a6J6Zeo5bm%2F5Zy6LOWMl%2BS6rOWkp%2BWtpizlpKrlubPmtIvmtbflupXkuJbnlYws5riF5Y2O5aSn5a2mLOm4n%2BW3oizlhavovr7lsq3plb%2Fln44s5Lit5Zu95Zu95a625aSn5Ymn6Zmi&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_jlaa3&func=6Lef5Zui5ri4&pid=1098258398&rid=33645603&vd=5Lit5peF572R5LiK5peX6Iiw5bqX> (referer: https://dujia.qunar.com/pi/detail_33645603?vendor=%E4%B8%AD%E6%97%85%E7%BD%91%E4%B8%8A%E6%97%97%E8%88%B0%E5%BA%97&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%2C%E5%A4%AA%E5%B9%B3%E6%B4%8B%E6%B5%B7%E5%BA%95%E4%B8%96%E7%95%8C%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E%2C%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%A4%A7%E5%89%A7%E9%99%A2&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 36, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:12:02 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 11:12:02 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-11-02 11:12:03 [scrapy.core.scraper] ERROR: Spider error processing <GET https://jlaa3.package.qunar.com/user/detail.jsp?id=1261306177&osrc=tts_tuan&rttp=%E5%91%A8%E8%BE%B9%E6%B8%B8&dep=5YyX5Lqs&arr=5om%2F5b63LOays%2BWMlyzljY7ljJcs5pmu5a6B5a%2B6LOajkuanjOWxsSzpgb%2FmmpHlsbHluoQs56Os6ZSk5bOwLOaZrumZgOWul%2BS5mOS5i%2BW6mSzom6Ton4bnn7Ms5om%2F5b636YG%2F5pqR5bGx5bqE&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_jlaa3&func=6Lef5Zui5ri4&pid=1261306177&rid=32355202&vd=5Lit5peF572R5LiK5peX6Iiw5bqX> (referer: https://dujia.qunar.com/pi/detail_32355202?vendor=%E4%B8%AD%E6%97%85%E7%BD%91%E4%B8%8A%E6%97%97%E8%88%B0%E5%BA%97&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E6%89%BF%E5%BE%B7%2C%E6%B2%B3%E5%8C%97%2C%E5%8D%8E%E5%8C%97%2C%E6%99%AE%E5%AE%81%E5%AF%BA%2C%E6%A3%92%E6%A7%8C%E5%B1%B1%2C%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%2C%E7%A3%AC%E9%94%A4%E5%B3%B0%2C%E6%99%AE%E9%99%80%E5%AE%97%E4%B9%98%E4%B9%8B%E5%BA%99%2C%E8%9B%A4%E8%9F%86%E7%9F%B3%2C%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84&ttsRouteType=%E5%91%A8%E8%BE%B9%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 36, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:12:34 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 11:12:34 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 11:12:34 [scrapy.crawler] INFO: Overridden settings: {'LOG_FILE': 'TencentSpider.log', 'NEWSPIDER_MODULE': 'qunarPro.spiders', 'BOT_NAME': 'qunarPro', 'SPIDER_MODULES': ['qunarPro.spiders'], 'DOWNLOAD_DELAY': 2, 'COOKIES_ENABLED': False, 'LOG_LEVEL': 'INFO'}
+2018-11-02 11:12:34 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-02 11:12:34 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 11:12:34 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 11:12:34 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 11:12:34 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 11:12:34 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 11:12:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://zlyg1.package.qunar.com/user/detail.jsp?id=3205476661&rttp=%E5%91%A8%E8%BE%B9%E6%B8%B8&dep=5YyX5Lqs&arr=5om%2F5b63LOays%2BWMlyzljY7ljJcs5pmu5a6B5a%2B6LOmBv%2BaakeWxseW6hCzpobvlvKXnpo%2Flr7%2FkuYvlupks56Os6ZSk5bOwLOaZrumZgOWul%2BS5mOS5i%2BW6mSzmib%2Flvrfpgb%2FmmpHlsbHluoQs572E5qOw5bOw&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_zlyg1&func=6Lef5Zui5ri4&pid=3205476661&rid=12049570&vd=6L%2Bc5rSL5Zu95peF> (referer: https://dujia.qunar.com/pi/detail_12049570?vendor=%E8%BF%9C%E6%B4%8B%E5%9B%BD%E6%97%85&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E6%89%BF%E5%BE%B7%2C%E6%B2%B3%E5%8C%97%2C%E5%8D%8E%E5%8C%97%2C%E6%99%AE%E5%AE%81%E5%AF%BA%2C%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%2C%E9%A1%BB%E5%BC%A5%E7%A6%8F%E5%AF%BF%E4%B9%8B%E5%BA%99%2C%E7%A3%AC%E9%94%A4%E5%B3%B0%2C%E6%99%AE%E9%99%80%E5%AE%97%E4%B9%98%E4%B9%8B%E5%BA%99%2C%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%2C%E7%BD%84%E6%A3%B0%E5%B3%B0&ttsRouteType=%E5%91%A8%E8%BE%B9%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 37, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:12:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://lxtx8.package.qunar.com/user/detail.jsp?id=1904280005&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5aSp5a6J6Zeo5bm%2F5Zy6LOWMl%2BS6rOWkp%2BWtpizmmI7ljYHkuInpmbUs5oGt546L5bqcLOa4heWNjuWkp%2BWtpizpuJ%2Flt6Is5YWr6L6%2B5bKt6ZW%2F5Z%2BO&ftdt=2018-11-05%2C2018-11-05#vid=qb2c_lxtx8&func=6Lef5Zui5ri4&pid=1904280005&rid=26563837&vd=5peF6KGM5aSp5LiL> (referer: https://dujia.qunar.com/pi/detail_26563837?vendor=%E6%97%85%E8%A1%8C%E5%A4%A9%E4%B8%8B&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%2C%E6%98%8E%E5%8D%81%E4%B8%89%E9%99%B5%2C%E6%81%AD%E7%8E%8B%E5%BA%9C%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-11-05,2018-11-05&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 37, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:12:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://jjxx3.package.qunar.com/user/detail.jsp?id=3791794551&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5aSp5a6J6Zeo5bm%2F5Zy6LOWMl%2BS6rOWkp%2BWtpizlhavovr7lsq3lm73lrrbmo67mnpflhazlm60s5piO5Y2B5LiJ6Zm1LOa4heWNjuWkp%2BWtpizpuJ%2Flt6Is5bGF5bq45YWz6ZW%2F5Z%2BO&ftdt=2018-12-01%2C2018-12-01#vid=qb2c_qltxs8&func=6Lef5Zui5ri4&pid=3791794551&rid=5168007&vd=6bqS6bqf5aSp5LiLLeengeS6uuiuouWItuWTgei0qOa4uA%3D%3D> (referer: https://dujia.qunar.com/pi/detail_5168007?vendor=%E9%BA%92%E9%BA%9F%E5%A4%A9%E4%B8%8B-%E7%A7%81%E4%BA%BA%E8%AE%A2%E5%88%B6%E5%93%81%E8%B4%A8%E6%B8%B8&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%2C%E6%98%8E%E5%8D%81%E4%B8%89%E9%99%B5%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2%2C%E5%B1%85%E5%BA%B8%E5%85%B3%E9%95%BF%E5%9F%8E&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-12-01,2018-12-01&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 37, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:12:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://kygj7.package.qunar.com/user/detail.jsp?id=3430712339&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5aSp5a6J6Zeo5bm%2F5Zy6LOWMl%2BS6rOWkp%2BWtpizmuIXljY7lpKflraYs6bif5beiLOWFq%2Bi%2BvuWyremVv%2BWfjizkuK3lm73lm73lrrblpKfliafpmaIs5aWl5p6X5Yy55YWL5YWs5Zut&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_bjkygj&func=6Lef5Zui5ri4&pid=3430712339&rid=2128441&vd=5o%2B96IOc5YyX5Lqs6KGM> (referer: https://dujia.qunar.com/pi/detail_2128441?vendor=%E6%8F%BD%E8%83%9C%E5%8C%97%E4%BA%AC%E8%A1%8C&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E%2C%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%A4%A7%E5%89%A7%E9%99%A2%2C%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E5%85%AC%E5%9B%AD&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 37, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:12:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://klsx1.package.qunar.com/user/detail.jsp?id=1550696289&osrc=tts_tuan&rttp=%E5%91%A8%E8%BE%B9%E6%B8%B8&dep=5YyX5Lqs&arr=5aSq5Y6fLOaZi%2BS4rSzlv7vlt54s5bGx6KW%2FLOWNjuWMlyzkuK3lm73nhaTngq3ljZrnianppoYs5Lic5rmW6YaL5ZutLOaZi%2BeloCzkuZTlrrblpKfpmaIs5bGx6KW%2F5pmL56Wg5Y2a54mp6aaG&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_klsx1&func=6Lef5Zui5ri4&pid=1550696289&rid=5870661&vd=5b%2Br5LmQ5bGx6KW%2F5ri4> (referer: https://dujia.qunar.com/pi/detail_5870661?vendor=%E5%BF%AB%E4%B9%90%E5%B1%B1%E8%A5%BF%E6%B8%B8&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%A4%AA%E5%8E%9F%2C%E6%99%8B%E4%B8%AD%2C%E5%BF%BB%E5%B7%9E%2C%E5%B1%B1%E8%A5%BF%2C%E5%8D%8E%E5%8C%97%2C%E4%B8%AD%E5%9B%BD%E7%85%A4%E7%82%AD%E5%8D%9A%E7%89%A9%E9%A6%86%2C%E4%B8%9C%E6%B9%96%E9%86%8B%E5%9B%AD%2C%E6%99%8B%E7%A5%A0%2C%E4%B9%94%E5%AE%B6%E5%A4%A7%E9%99%A2%2C%E5%B1%B1%E8%A5%BF%E6%99%8B%E7%A5%A0%E5%8D%9A%E7%89%A9%E9%A6%86&ttsRouteType=%E5%91%A8%E8%BE%B9%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 37, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:12:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://zztv3.package.qunar.com/user/detail.jsp?id=1413855272&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5aSp5a6J6Zeo5bm%2F5Zy6LOaBreeOi%2BW6nCzmuIXljY7lpKflraYs6bif5beiLOWFq%2Bi%2BvuWyremVv%2BWfjizlpaXmnpfljLnlhYvlhazlm60s5YyX5rW35YWs5Zut&ftdt=2018-11-27%2C2018-11-27#vid=qb2c_xyjll&func=6Lef5Zui5ri4&pid=1413855272&rid=34553779&vd=5Zi75ri46K6w5peF5ri4572R> (referer: https://dujia.qunar.com/pi/detail_34553779?vendor=%E5%98%BB%E6%B8%B8%E8%AE%B0%E6%97%85%E6%B8%B8%E7%BD%91&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E6%81%AD%E7%8E%8B%E5%BA%9C%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E%2C%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E5%85%AC%E5%9B%AD%2C%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-11-27,2018-11-27&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 37, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:12:53 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 11:12:53 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-11-02 11:12:54 [scrapy.core.scraper] ERROR: Spider error processing <GET https://lxtx1.package.qunar.com/user/detail.jsp?id=219538233&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5aSp5a6J6Zeo5bm%2F5Zy6LOWMl%2BS6rOWkp%2BWtpizmga3njovlupws5riF5Y2O5aSn5a2mLOm4n%2BW3oiznuqLliaflnLos5YWr6L6%2B5bKt6ZW%2F5Z%2BO&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_lxtx&func=6Lef5Zui5ri4&pid=219538233&rid=17943376&vd=6b6Z6KGM5aSp5LiL5peF6KGM> (referer: https://dujia.qunar.com/pi/detail_17943376?vendor=%E9%BE%99%E8%A1%8C%E5%A4%A9%E4%B8%8B%E6%97%85%E8%A1%8C&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%2C%E6%81%AD%E7%8E%8B%E5%BA%9C%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2%2C%E7%BA%A2%E5%89%A7%E5%9C%BA%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 37, in detaile_data
+    dataDict['title'] = response.css('div.summary h1::text()').extract_first(None)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 122, in css
+    return self.selector.css(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 262, in css
+    return self.xpath(self._css2xpath(query))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 265, in _css2xpath
+    return self._csstranslator.css_to_xpath(query)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 109, in css_to_xpath
+    return super(HTMLTranslator, self).css_to_xpath(css, prefix)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in css_to_xpath
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 192, in <genexpr>
+    for selector in parse(css))
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/cssselect/xpath.py", line 222, in selector_to_xpath
+    xpath = self.xpath_pseudo_element(xpath, selector.pseudo_element)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/csstranslator.py", line 72, in xpath_pseudo_element
+    % pseudo_element.name)
+cssselect.xpath.ExpressionError: The functional pseudo-element ::text() is unknown
+2018-11-02 11:13:59 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 11:13:59 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 11:13:59 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'qunarPro.spiders', 'LOG_FILE': 'TencentSpider.log', 'DOWNLOAD_DELAY': 2, 'BOT_NAME': 'qunarPro', 'COOKIES_ENABLED': False, 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['qunarPro.spiders']}
+2018-11-02 11:13:59 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-11-02 11:13:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 11:13:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 11:13:59 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 11:13:59 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 11:13:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 11:14:21 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 11:14:21 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-11-02 11:14:32 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 11:14:32 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 11:14:32 [scrapy.crawler] INFO: Overridden settings: {'SPIDER_MODULES': ['qunarPro.spiders'], 'DOWNLOAD_DELAY': 2, 'BOT_NAME': 'qunarPro', 'NEWSPIDER_MODULE': 'qunarPro.spiders', 'COOKIES_ENABLED': False, 'LOG_LEVEL': 'INFO', 'LOG_FILE': 'TencentSpider.log'}
+2018-11-02 11:14:32 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-02 11:14:32 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 11:14:32 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 11:14:32 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 11:14:32 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 11:14:32 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 11:14:44 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 11:14:44 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-11-02 11:18:06 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 11:18:06 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 11:18:06 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'qunarPro.spiders', 'DOWNLOAD_DELAY': 2, 'SPIDER_MODULES': ['qunarPro.spiders'], 'LOG_FILE': 'TencentSpider.log', 'COOKIES_ENABLED': False, 'LOG_LEVEL': 'INFO', 'BOT_NAME': 'qunarPro'}
+2018-11-02 11:18:06 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-02 11:18:06 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 11:18:06 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 11:18:06 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 11:18:06 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 11:18:06 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 11:18:20 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 11:18:20 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-11-02 11:20:37 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 11:20:37 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 11:20:37 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'qunarPro.spiders', 'LOG_FILE': 'TencentSpider.log', 'DOWNLOAD_DELAY': 2, 'LOG_LEVEL': 'INFO', 'COOKIES_ENABLED': False, 'BOT_NAME': 'qunarPro', 'SPIDER_MODULES': ['qunarPro.spiders']}
+2018-11-02 11:20:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.telnet.TelnetConsole']
+2018-11-02 11:20:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 11:20:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 11:20:37 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 11:20:37 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 11:20:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 11:20:50 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 11:20:50 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-11-02 11:21:18 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 11:21:18 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 11:21:18 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'qunarPro.spiders', 'LOG_LEVEL': 'INFO', 'BOT_NAME': 'qunarPro', 'COOKIES_ENABLED': False, 'LOG_FILE': 'TencentSpider.log', 'DOWNLOAD_DELAY': 2, 'SPIDER_MODULES': ['qunarPro.spiders']}
+2018-11-02 11:21:18 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-02 11:21:18 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 11:21:18 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 11:21:18 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 11:21:18 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 11:21:18 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 11:21:45 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 11:21:45 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-11-02 11:27:05 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 11:27:05 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 11:27:05 [scrapy.crawler] INFO: Overridden settings: {'SPIDER_MODULES': ['qunarPro.spiders'], 'DOWNLOAD_DELAY': 2, 'LOG_FILE': 'TencentSpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'qunarPro.spiders', 'BOT_NAME': 'qunarPro', 'COOKIES_ENABLED': False}
+2018-11-02 11:27:05 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-02 11:27:05 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 11:27:05 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 11:27:05 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 11:27:05 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 11:27:05 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 11:27:19 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 11:27:19 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-11-02 11:29:00 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 11:29:00 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 11:29:00 [scrapy.crawler] INFO: Overridden settings: {'SPIDER_MODULES': ['qunarPro.spiders'], 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'qunarPro.spiders', 'COOKIES_ENABLED': False, 'BOT_NAME': 'qunarPro', 'LOG_FILE': 'TencentSpider.log', 'DOWNLOAD_DELAY': 2}
+2018-11-02 11:29:00 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-02 11:29:00 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 11:29:00 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 11:29:00 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 11:29:00 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 11:29:00 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 11:29:13 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 11:29:13 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-11-02 11:29:22 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 11:29:22 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 11:29:22 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'qunarPro.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['qunarPro.spiders'], 'DOWNLOAD_DELAY': 2, 'BOT_NAME': 'qunarPro', 'COOKIES_ENABLED': False, 'LOG_FILE': 'TencentSpider.log'}
+2018-11-02 11:29:22 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2018-11-02 11:29:22 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 11:29:22 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 11:29:22 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 11:29:22 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 11:29:22 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 11:29:36 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 11:29:36 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-11-02 11:30:31 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 11:30:31 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 11:30:31 [scrapy.crawler] INFO: Overridden settings: {'COOKIES_ENABLED': False, 'LOG_FILE': 'TencentSpider.log', 'LOG_LEVEL': 'INFO', 'DOWNLOAD_DELAY': 2, 'NEWSPIDER_MODULE': 'qunarPro.spiders', 'BOT_NAME': 'qunarPro', 'SPIDER_MODULES': ['qunarPro.spiders']}
+2018-11-02 11:30:31 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole']
+2018-11-02 11:30:31 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 11:30:31 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 11:30:31 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 11:30:31 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 11:30:31 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 11:30:44 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 11:30:44 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-11-02 12:56:23 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 12:56:23 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 12:56:23 [scrapy.crawler] INFO: Overridden settings: {'DOWNLOAD_DELAY': 2, 'SPIDER_MODULES': ['qunarPro.spiders'], 'LOG_FILE': 'TencentSpider.log', 'BOT_NAME': 'qunarPro', 'NEWSPIDER_MODULE': 'qunarPro.spiders', 'LOG_LEVEL': 'INFO', 'COOKIES_ENABLED': False}
+2018-11-02 12:56:23 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-02 12:56:23 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 12:56:23 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 12:56:23 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 12:56:23 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 12:56:23 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 12:56:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://zlyg1.package.qunar.com/user/detail.jsp?id=3205476661&rttp=%E5%91%A8%E8%BE%B9%E6%B8%B8&dep=5YyX5Lqs&arr=5om%2F5b63LOays%2BWMlyzljY7ljJcs5pmu5a6B5a%2B6LOmBv%2BaakeWxseW6hCzpobvlvKXnpo%2Flr7%2FkuYvlupks56Os6ZSk5bOwLOaZrumZgOWul%2BS5mOS5i%2BW6mSzmib%2Flvrfpgb%2FmmpHlsbHluoQs572E5qOw5bOw&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_zlyg1&func=6Lef5Zui5ri4&pid=3205476661&rid=12049570&vd=6L%2Bc5rSL5Zu95peF> (referer: https://dujia.qunar.com/pi/detail_12049570?vendor=%E8%BF%9C%E6%B4%8B%E5%9B%BD%E6%97%85&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E6%89%BF%E5%BE%B7%2C%E6%B2%B3%E5%8C%97%2C%E5%8D%8E%E5%8C%97%2C%E6%99%AE%E5%AE%81%E5%AF%BA%2C%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%2C%E9%A1%BB%E5%BC%A5%E7%A6%8F%E5%AF%BF%E4%B9%8B%E5%BA%99%2C%E7%A3%AC%E9%94%A4%E5%B3%B0%2C%E6%99%AE%E9%99%80%E5%AE%97%E4%B9%98%E4%B9%8B%E5%BA%99%2C%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%2C%E7%BD%84%E6%A3%B0%E5%B3%B0&ttsRouteType=%E5%91%A8%E8%BE%B9%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 238, in xpath
+    **kwargs)
+  File "src/lxml/etree.pyx", line 1577, in lxml.etree._Element.xpath
+  File "src/lxml/xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src/lxml/xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 38, in detaile_data
+    dataDict['title'] = ''.join(response.xpath('div.summary h1 ::text').extract()).replace('\n','').strip()
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 238, in xpath
+    **kwargs)
+  File "src/lxml/etree.pyx", line 1577, in lxml.etree._Element.xpath
+  File "src/lxml/xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src/lxml/xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in div.summary h1 ::text
+2018-11-02 12:56:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://lxtx8.package.qunar.com/user/detail.jsp?id=1904280005&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5aSp5a6J6Zeo5bm%2F5Zy6LOWMl%2BS6rOWkp%2BWtpizmmI7ljYHkuInpmbUs5oGt546L5bqcLOa4heWNjuWkp%2BWtpizpuJ%2Flt6Is5YWr6L6%2B5bKt6ZW%2F5Z%2BO&ftdt=2018-11-05%2C2018-11-05#vid=qb2c_lxtx8&func=6Lef5Zui5ri4&pid=1904280005&rid=26563837&vd=5peF6KGM5aSp5LiL> (referer: https://dujia.qunar.com/pi/detail_26563837?vendor=%E6%97%85%E8%A1%8C%E5%A4%A9%E4%B8%8B&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%2C%E6%98%8E%E5%8D%81%E4%B8%89%E9%99%B5%2C%E6%81%AD%E7%8E%8B%E5%BA%9C%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-11-05,2018-11-05&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 238, in xpath
+    **kwargs)
+  File "src/lxml/etree.pyx", line 1577, in lxml.etree._Element.xpath
+  File "src/lxml/xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src/lxml/xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 38, in detaile_data
+    dataDict['title'] = ''.join(response.xpath('div.summary h1 ::text').extract()).replace('\n','').strip()
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 238, in xpath
+    **kwargs)
+  File "src/lxml/etree.pyx", line 1577, in lxml.etree._Element.xpath
+  File "src/lxml/xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src/lxml/xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in div.summary h1 ::text
+2018-11-02 12:56:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://bjbh1.package.qunar.com/user/detail.jsp?id=856878074&osrc=tts_tuan&rttp=%E5%91%A8%E8%BE%B9%E6%B8%B8&dep=5YyX5Lqs&arr=5om%2F5b63LOays%2BWMlyzljY7ljJcs5pmu5a6B5a%2B6LOajkuanjOWxsSzpgb%2FmmpHlsbHluoQs5pmu6ZmA5a6X5LmY5LmL5bqZLOaJv%2BW%2Bt%2BmBv%2BaakeWxseW6hCzmib%2Flvrfmma7lroHlr7os5bCP5biD6L6%2B5ouJ5a6r&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_bjbh1&func=6Lef5Zui5ri4&pid=856878074&rid=9454267&vd=5YyX5Lqs5YyX5rW35Zu96ZmF5peF6KGM56S%2B> (referer: https://dujia.qunar.com/pi/detail_9454267?vendor=%E5%8C%97%E4%BA%AC%E5%8C%97%E6%B5%B7%E5%9B%BD%E9%99%85%E6%97%85%E8%A1%8C%E7%A4%BE&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E6%89%BF%E5%BE%B7%2C%E6%B2%B3%E5%8C%97%2C%E5%8D%8E%E5%8C%97%2C%E6%99%AE%E5%AE%81%E5%AF%BA%2C%E6%A3%92%E6%A7%8C%E5%B1%B1%2C%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%2C%E6%99%AE%E9%99%80%E5%AE%97%E4%B9%98%E4%B9%8B%E5%BA%99%2C%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%2C%E6%89%BF%E5%BE%B7%E6%99%AE%E5%AE%81%E5%AF%BA%2C%E5%B0%8F%E5%B8%83%E8%BE%BE%E6%8B%89%E5%AE%AB&ttsRouteType=%E5%91%A8%E8%BE%B9%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 238, in xpath
+    **kwargs)
+  File "src/lxml/etree.pyx", line 1577, in lxml.etree._Element.xpath
+  File "src/lxml/xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src/lxml/xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 38, in detaile_data
+    dataDict['title'] = ''.join(response.xpath('div.summary h1 ::text').extract()).replace('\n','').strip()
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 238, in xpath
+    **kwargs)
+  File "src/lxml/etree.pyx", line 1577, in lxml.etree._Element.xpath
+  File "src/lxml/xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src/lxml/xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in div.summary h1 ::text
+2018-11-02 12:56:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://jjxx3.package.qunar.com/user/detail.jsp?id=3791794551&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5aSp5a6J6Zeo5bm%2F5Zy6LOWMl%2BS6rOWkp%2BWtpizlhavovr7lsq3lm73lrrbmo67mnpflhazlm60s5piO5Y2B5LiJ6Zm1LOa4heWNjuWkp%2BWtpizpuJ%2Flt6Is5bGF5bq45YWz6ZW%2F5Z%2BO&ftdt=2018-12-01%2C2018-12-01#vid=qb2c_qltxs8&func=6Lef5Zui5ri4&pid=3791794551&rid=5168007&vd=6bqS6bqf5aSp5LiLLeengeS6uuiuouWItuWTgei0qOa4uA%3D%3D> (referer: https://dujia.qunar.com/pi/detail_5168007?vendor=%E9%BA%92%E9%BA%9F%E5%A4%A9%E4%B8%8B-%E7%A7%81%E4%BA%BA%E8%AE%A2%E5%88%B6%E5%93%81%E8%B4%A8%E6%B8%B8&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%2C%E6%98%8E%E5%8D%81%E4%B8%89%E9%99%B5%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2%2C%E5%B1%85%E5%BA%B8%E5%85%B3%E9%95%BF%E5%9F%8E&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-12-01,2018-12-01&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 238, in xpath
+    **kwargs)
+  File "src/lxml/etree.pyx", line 1577, in lxml.etree._Element.xpath
+  File "src/lxml/xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src/lxml/xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 38, in detaile_data
+    dataDict['title'] = ''.join(response.xpath('div.summary h1 ::text').extract()).replace('\n','').strip()
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 238, in xpath
+    **kwargs)
+  File "src/lxml/etree.pyx", line 1577, in lxml.etree._Element.xpath
+  File "src/lxml/xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src/lxml/xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in div.summary h1 ::text
+2018-11-02 12:56:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://kygj7.package.qunar.com/user/detail.jsp?id=3430712339&osrc=tts_tuan&rttp=%E6%9C%AC%E5%9C%B0%E6%B8%B8&dep=5YyX5Lqs&arr=5YyX5LqsLOWNjuWMlyzpopDlkozlm60s5aSp5a6J6Zeo5bm%2F5Zy6LOWMl%2BS6rOWkp%2BWtpizmuIXljY7lpKflraYs6bif5beiLOWFq%2Bi%2BvuWyremVv%2BWfjizkuK3lm73lm73lrrblpKfliafpmaIs5aWl5p6X5Yy55YWL5YWs5Zut&ftdt=2018-11-03%2C2018-11-03#vid=qb2c_bjkygj&func=6Lef5Zui5ri4&pid=3430712339&rid=2128441&vd=5o%2B96IOc5YyX5Lqs6KGM> (referer: https://dujia.qunar.com/pi/detail_2128441?vendor=%E6%8F%BD%E8%83%9C%E5%8C%97%E4%BA%AC%E8%A1%8C&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%8C%97%E4%BA%AC%2C%E5%8D%8E%E5%8C%97%2C%E9%A2%90%E5%92%8C%E5%9B%AD%2C%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%2C%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%2C%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%2C%E9%B8%9F%E5%B7%A2%2C%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E%2C%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%A4%A7%E5%89%A7%E9%99%A2%2C%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E5%85%AC%E5%9B%AD&ttsRouteType=%E6%9C%AC%E5%9C%B0%E6%B8%B8&filterDate=2018-11-03,2018-11-03&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 238, in xpath
+    **kwargs)
+  File "src/lxml/etree.pyx", line 1577, in lxml.etree._Element.xpath
+  File "src/lxml/xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src/lxml/xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 38, in detaile_data
+    dataDict['title'] = ''.join(response.xpath('div.summary h1 ::text').extract()).replace('\n','').strip()
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 238, in xpath
+    **kwargs)
+  File "src/lxml/etree.pyx", line 1577, in lxml.etree._Element.xpath
+  File "src/lxml/xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src/lxml/xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in div.summary h1 ::text
+2018-11-02 12:56:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://klsx1.package.qunar.com/user/detail.jsp?id=1550696289&osrc=tts_tuan&rttp=%E5%91%A8%E8%BE%B9%E6%B8%B8&dep=5YyX5Lqs&arr=5aSq5Y6fLOaZi%2BS4rSzlv7vlt54s5bGx6KW%2FLOWNjuWMlyzkuK3lm73nhaTngq3ljZrnianppoYs5Lic5rmW6YaL5ZutLOaZi%2BeloCzkuZTlrrblpKfpmaIs5bGx6KW%2F5pmL56Wg5Y2a54mp6aaG&ftdt=2018-11-04%2C2018-11-04#vid=qb2c_klsx1&func=6Lef5Zui5ri4&pid=1550696289&rid=5870661&vd=5b%2Br5LmQ5bGx6KW%2F5ri4> (referer: https://dujia.qunar.com/pi/detail_5870661?vendor=%E5%BF%AB%E4%B9%90%E5%B1%B1%E8%A5%BF%E6%B8%B8&function=%E8%B7%9F%E5%9B%A2%E6%B8%B8&departure=%E5%8C%97%E4%BA%AC&arrive=%E5%A4%AA%E5%8E%9F%2C%E6%99%8B%E4%B8%AD%2C%E5%BF%BB%E5%B7%9E%2C%E5%B1%B1%E8%A5%BF%2C%E5%8D%8E%E5%8C%97%2C%E4%B8%AD%E5%9B%BD%E7%85%A4%E7%82%AD%E5%8D%9A%E7%89%A9%E9%A6%86%2C%E4%B8%9C%E6%B9%96%E9%86%8B%E5%9B%AD%2C%E6%99%8B%E7%A5%A0%2C%E4%B9%94%E5%AE%B6%E5%A4%A7%E9%99%A2%2C%E5%B1%B1%E8%A5%BF%E6%99%8B%E7%A5%A0%E5%8D%9A%E7%89%A9%E9%A6%86&ttsRouteType=%E5%91%A8%E8%BE%B9%E6%B8%B8&filterDate=2018-11-04,2018-11-04&order_source=tts_tuan)
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 238, in xpath
+    **kwargs)
+  File "src/lxml/etree.pyx", line 1577, in lxml.etree._Element.xpath
+  File "src/lxml/xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src/lxml/xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/ubuntu/june_爬虫/scrapy框架/qunarPro/qunarPro/spiders/qunar.py", line 38, in detaile_data
+    dataDict['title'] = ''.join(response.xpath('div.summary h1 ::text').extract()).replace('\n','').strip()
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/scrapy/http/response/text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ubuntu/.virtualenvs/a_spiders/lib/python3.5/site-packages/parsel/selector.py", line 238, in xpath
+    **kwargs)
+  File "src/lxml/etree.pyx", line 1577, in lxml.etree._Element.xpath
+  File "src/lxml/xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src/lxml/xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in div.summary h1 ::text
+2018-11-02 12:56:39 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 12:56:39 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-11-02 12:56:53 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qunarPro)
+2018-11-02 12:56:53 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-34-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-11-02 12:56:53 [scrapy.crawler] INFO: Overridden settings: {'LOG_LEVEL': 'INFO', 'BOT_NAME': 'qunarPro', 'NEWSPIDER_MODULE': 'qunarPro.spiders', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 2, 'SPIDER_MODULES': ['qunarPro.spiders'], 'LOG_FILE': 'TencentSpider.log'}
+2018-11-02 12:56:53 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole']
+2018-11-02 12:56:53 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-02 12:56:53 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-02 12:56:53 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-02 12:56:53 [scrapy.core.engine] INFO: Spider opened
+2018-11-02 12:56:53 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-02 12:57:13 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-11-02 12:57:13 [scrapy.core.engine] INFO: Closing spider (shutdown)
