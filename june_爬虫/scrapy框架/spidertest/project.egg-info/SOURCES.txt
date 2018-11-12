@@ -1,0 +1,13 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+spidertest/__init__.py
+spidertest/items.py
+spidertest/middlewares.py
+spidertest/pipelines.py
+spidertest/settings.py
+spidertest/spiders/__init__.py
+spidertest/spiders/dzbtset.py

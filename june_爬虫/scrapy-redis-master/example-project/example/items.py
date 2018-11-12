@@ -8,17 +8,32 @@ from scrapy.loader import ItemLoader
 from scrapy.loader.processors import MapCompose, TakeFirst, Join
 
 
-class ExampleItem(Item):
-    name = Field()
-    description = Field()
-    link = Field()
-    crawled = Field()
-    spider = Field()
-    url = Field()
-
-
-class ExampleLoader(ItemLoader):
-    default_item_class = ExampleItem
-    default_input_processor = MapCompose(lambda s: s.strip())
-    default_output_processor = TakeFirst()
-    description_out = Join()
+# class ExampleItem(Item):
+#     name = Field()
+#     description = Field()
+#     link = Field()
+#     crawled = Field()
+#     spider = Field()
+#     url = Field()
+#
+#
+# class ExampleLoader(ItemLoader):
+#     default_item_class = ExampleItem
+#     default_input_processor = MapCompose(lambda s: s.strip())
+#     default_output_processor = TakeFirst()
+#     description_out = Join()
+class BaidulvyouItem(Item):
+    # 标题
+    address = Field()
+    # 图片
+    img_url=Field()
+    #评分
+    grade=Field()
+    #评论数量
+    comment_num = Field()
+    #简介
+    intro = Field()
+    #建议
+    best_offer = Field()
+    #评论列表
+    comment_list = Field()

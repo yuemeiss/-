@@ -1,0 +1,15 @@
+setup.py
+baidulvyou/__init__.py
+baidulvyou/items.py
+baidulvyou/main.py
+baidulvyou/middlewares.py
+baidulvyou/pipelines.py
+baidulvyou/settings.py
+baidulvyou/spiders/__init__.py
+baidulvyou/spiders/baidulvyou1.py
+baidulvyou/spiders/baiduly.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

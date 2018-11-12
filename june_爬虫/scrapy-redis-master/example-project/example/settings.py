@@ -17,7 +17,7 @@ DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 
 #允许恢复和暂停
-# SCHEDULER_PERSIST = True
+SCHEDULER_PERSIST = True
 
 #scrapy的三种requset队列模式
 #1.一般通常都是会用这种,是默认的队列模式,有自己的优先级顺序
@@ -46,7 +46,7 @@ LOG_LEVEL = 'DEBUG'
 # Introduce an artifical delay to make use of parallelism. to speed up the
 # crawl.
 
-DOWNLOAD_DELAY = 1
+# DOWNLOAD_DELAY = 1
 
 #指定redis的相关配置
 #指定要存储的redis  主机IP

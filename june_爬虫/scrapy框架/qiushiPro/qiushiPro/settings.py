@@ -27,13 +27,13 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-#DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 1
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
-#COOKIES_ENABLED = False
+COOKIES_ENABLED = False
 
 # Disable Telnet Console (enabled by default)
 #TELNETCONSOLE_ENABLED = False
@@ -42,7 +42,7 @@ ROBOTSTXT_OBEY = False
 DEFAULT_REQUEST_HEADERS = {
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
   'Accept-Language': 'en',
-  'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+  'User-Agent': 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0'
 }
 
 # Enable or disable spider middlewares
@@ -65,9 +65,11 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'qiushiPro.pipelines.QiushiproPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'qiushiPro.pipelines.QiushiImagePipeline':299,
+    'qiushiPro.pipelines.JuziconproPipeline':300,
+   # 'qiushiPro.pipelines.QiushiproPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -89,3 +91,21 @@ DEFAULT_REQUEST_HEADERS = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+#设置host
+MONGO_HOST = 'localhost'
+#设置端口
+MONGO_PORT = 27017
+#设置数据库名称
+MONGO_DB = 'qiushi'
+
+#图片存储位置
+IMAGES_STORE = '/home/ubuntu/june_爬虫/scrapy框架/qiushiPro/qiushiPro/image'
+
+#mysql数据库设置
+MYSQL_HOST = 'localhost'
+MYSQL_USER = 'root'
+MYSQL_PWD = '123456'
+MYSQL_PORT = 3306
+MYSQL_DB = 'junePro'
+
+

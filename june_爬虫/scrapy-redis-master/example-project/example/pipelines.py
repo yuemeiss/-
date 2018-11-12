@@ -6,6 +6,6 @@ from datetime import datetime
 
 class ExamplePipeline(object):
     def process_item(self, item, spider):
-        item["crawled"] = datetime.utcnow()
-        item["spider"] = spider.name
+        # item["crawled"] = datetime.utcnow()
+        # item["spider"] = spider.name
         return item
