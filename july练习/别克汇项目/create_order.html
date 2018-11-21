@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>别克汇-结算页面</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/list.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="titlebar">
+        <div class="container">
+            <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 col-xs-4 col-xs-offset-2">
+                <i class="glyphicon glyphicon-map-marker style-red"></i>
+                <a href="#"> 北京 </a>
+            </div>
+            <div class="col-lg-4  col-md-4 col-sm-4 col-xs-4 text-right show">
+                你好!请
+                <a href="#" class="style-red"> 注册 </a> /
+                <a href="#"> 登录 </a>
+            </div>
+            <div class="col-lg-4  col-md-4 col-sm-4 col-xs-4 text-right hidden">
+                <a href="#"> 欢迎你! / xxx </a> |
+                <a href="#"> 购物车 </a> |
+                <a href="#"> 我的收藏 </a> |
+                <a href="#"> 客户服务 </a> |
+                <a href="#"> 帮助 </a>
+            </div>
+        </div>
+    </div>
+    <!-- 搜索框 开始 -->
+    <div class="container">
+        <form class="navbar-form navbar-left margin-center top-search" role="search" action="list.html">
+            <!-- <div class="form-group"> -->
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                    <button class="btn btn-danger" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                </span>
+            </div>
+            <!-- </div> -->
+        </form>
+    </div>
+    <!-- 搜索框 结束 -->
+    <div class="container main-order">
+        <div class="row">
+            <div class="col-md-12">
+                <strong>收货人信息:</strong>
+                <div class="col-md-12">
+                    <h5>安以轩 台湾省台北市观光学院 123132131</h5>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12">
+                <strong>支付方式</strong>
+                <div class="col-md-12">
+                    <h5>
+                        <button class="btn btn-danger">支付宝支付</button>
+                        <button class="btn btn-default">微信支付</button>
+                        <button class="btn btn-default">货到付款</button>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row order-list">
+            <div class="col-md-12">
+                <strong>送货清单</strong>
+            </div>
+            <div class="col-md-12 order_product">
+                <div class="col-md-2">
+                    <img src="image/3.jpg" alt="商品图片">
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        诺梵 创意心形巧克力礼盒装粉红心语心悦礼盒
+                        代可可脂 圣诞节送男女友生日圣诞礼物600g
+                    </p>
+                </div>
+                <div class="col-md-1">¥99.00</div>
+                <div class="col-md-2">x1</div>
+                <div class="col-md-3">¥99.00</div>
+            </div>
+
+            <div class="col-md-12 order_product">
+                <div class="col-md-2">
+                    <img src="image/3.jpg" alt="商品图片">
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        诺梵 创意心形巧克力礼盒装粉红心语心悦礼盒
+                        代可可脂 圣诞节送男女友生日圣诞礼物600g
+                    </p>
+                </div>
+                <div class="col-md-1">¥99.00</div>
+                <div class="col-md-2">x1</div>
+                <div class="col-md-3">¥99.00</div>
+            </div>
+            <div class="col-md-12 order_product">
+                <div class="col-md-2">
+                    <img src="image/3.jpg" alt="商品图片">
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        诺梵 创意心形巧克力礼盒装粉红心语心悦礼盒
+                        代可可脂 圣诞节送男女友生日圣诞礼物600g
+                    </p>
+                </div>
+                <div class="col-md-1">¥99.00</div>
+                <div class="col-md-2">x1</div>
+                <div class="col-md-3">¥99.00</div>
+            </div>
+            <div class="col-md-12 order_product">
+                <div class="col-md-2">
+                    <img src="image/3.jpg" alt="商品图片">
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        诺梵 创意心形巧克力礼盒装粉红心语心悦礼盒
+                        代可可脂 圣诞节送男女友生日圣诞礼物600g
+                    </p>
+                </div>
+                <div class="col-md-1">¥99.00</div>
+                <div class="col-md-2">x1</div>
+                <div class="col-md-3">¥99.00</div>
+            </div>
+            <div class="col-md-12 order-pay">
+                <div class="order_right">
+                    <span class="order_price">
+                        总价: <em class="style-red"> ¥396.00 </em>
+                    </span>
+                    <button id="order-submit" class="btn btn-danger pull-right btn-size">去结算</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="container text-center hidden">当前没有订单信息</h1>
+    <div class="container best_seller">
+        <h3>畅销单品</h3>
+        <div class="row">
+            <ul class="col-md-12 p-list">
+                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6 best_seller_product">
+                    <div class="col-md-6 best_seller_img">
+                        <img src="image/9.jpg" alt="商品图片">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="s-name">
+                            <a href="#">飞科(FLYCO)电吹风机家用FH6232大功率吹风筒 2000W</a>
+                        </div>
+                        <p class="style-red">￥156.00</p>
+                        <button class="btn btn-default">
+                            <span class="glyphicon glyphicon-shopping-cart">
+                                加入到购物车
+                            </span>
+                        </button>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6 best_seller_product">
+                    <div class="col-md-6 best_seller_img">
+                        <img src="image/9.jpg" alt="商品图片">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="s-name">
+                            <a href="#">飞科(FLYCO)电吹风机家用FH6232大功率吹风筒 2000W</a>
+                        </div>
+                        <p class="style-red">￥156.00</p>
+                        <button class="btn btn-default">
+                            <span class="glyphicon glyphicon-shopping-cart">
+                                加入到购物车
+                            </span>
+                        </button>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6 best_seller_product">
+                    <div class="col-md-6 best_seller_img">
+                        <img src="image/9.jpg" alt="商品图片">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="s-name">
+                            <a href="#">飞科(FLYCO)电吹风机家用FH6232大功率吹风筒 2000W</a>
+                        </div>
+                        <p class="style-red">￥156.00</p>
+                        <button class="btn btn-default">
+                            <span class="glyphicon glyphicon-shopping-cart">
+                                加入到购物车
+                            </span>
+                        </button>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6 best_seller_product">
+                    <div class="col-md-6 best_seller_img">
+                        <img src="image/9.jpg" alt="商品图片">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="s-name">
+                            <a href="#">飞科(FLYCO)电吹风机家用FH6232大功率吹风筒 2000W</a>
+                        </div>
+                        <p class="style-red">￥156.00</p>
+                        <button class="btn btn-default">
+                            <span class="glyphicon glyphicon-shopping-cart">
+                                加入到购物车
+                            </span>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+</body>
+
+</html>

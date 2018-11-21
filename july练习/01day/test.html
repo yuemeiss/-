@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>严格模式</title>
+</head>
+<body>
+    <button id="btn1">测试箭头函数this_1</button>
+    <button id="btn2">测试箭头函数this_2</button>
+    <script type="text/javascript">
+        // 开启严格模式
+        // 'use strict'
+        var username = 'aa';
+        // console.log(username);
+        function Person(name,age){
+            this.name = name;
+            this.age = age;
+        }
+        new Person('kobe',49); //严格模式下必须加new 禁止自定义的this指向window
+        
+        // 4. 语法和行为改变
+        // * 必须用var声明变量
+        // * 禁止自定义的函数中的this指向window
+        // * 创建eval作用域
+        // * 对象不能有重名的属性
+        let btn1 = document.getElementById('btn1');
+        let btn2 = document.getElementById('btn2');
+        // btn1.onclick = function(){
+        //     alert(this);
+        //     console.log(this);
+        // }
+        // btn2.onclick = () => {
+        //     alert(this);
+        // }
+        let obj = {
+            name: '箭头函数',
+            getName: () => {
+                btn2.onclick = () => {
+                    alert(this)
+                    console.log(this);
+                }
+            }
+        }
+        // 本质是 obj.getName = () => {};
+        obj.getName();
+    
+    </script>
+
+</body>
+</html>

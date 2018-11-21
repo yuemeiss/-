@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+        function myIterator(arr){//iterator 接口
+            let nextIndex = 0; //记录指针位置
+            return {
+                next:function(){
+                    return {
+                        value:arr[nextIndex++],
+                        done:nextIndex < arr.length ? false : true
+                    } 
+                }
+            }
+           
+        };
+        //iterator 类
+        // let 
+        let test = [1,2,3,4,'wer'];
+        let testobj = myIterator(test);
+        // console.log(testobj.next());
+        // console.log(testobj.next());
+        // console.log(testobj.next());
+        // console.log(testobj.next());
+        // for(let i of testobj){ //不能遍历
+        //     console.log(i)
+            
+        // }
+        // 数组遍历   for ... of ..
+        let testArr = ['sdf',3.4,45,3,4];
+        // for(let i of testArr){
+        //     console.log(i)
+        // }
+        //1. Object.create(prototype, [descriptors])
+        //!!!! 构造函数
+        function Person(num){
+            this.arr = num;
+            this.nextIndex = 0;
+            Symbol.iterator = function(){
+                    return {
+                        value:this.arr[this.nextIndex++],
+                        done:this.nextIndex < this.arr.length ? false : true
+                    } 
+                }
+
+        }
+        // let tobj = new Person(testArr);
+        // for(let i of tobj){
+        //     console.log(i)
+        // }
+        var obj = {username: 'jordan', age: 55};
+        var obj1 = {};
+        obj1 = Object.create(obj, {
+            sex: {
+            value: '男',
+            writable: true,
+            configurable: true,
+            enumerable: true
+            }
+        });
+        // console.log(obj1);
+        // console.log(obj1.sex);
+        obj1.sex = '女';
+        // console.log(obj1.sex);
+        delete obj1.sex;
+        // console.log(obj1);
+        var i;
+        var j;
+        for(i in obj1){
+            console.log(i.value);
+            // console.log(j);
+        }
+
+
+
+    </script>
+
+
+    <title>iterator遍历器</title>
+</head>
+<body>
+    
+</body>
+</html>
