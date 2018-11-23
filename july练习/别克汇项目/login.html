@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>别克汇-登录</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <a href="index.html" class="logo"></a>
+            <div class="logo-title">欢迎登录别克汇</div>
+            <div class="have-account">
+                还没有账号？&nbsp;&nbsp;<a href="register.html">请注册</a>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <div class="container">
+           
+            <form action="../075.target.html" method="post" class="form">
+                 <!-- 扫码和账号　切换 -->
+                <div class="login-change">
+                    <a href="#" class="style-red">扫码登录</a>
+                    <i>|</i>
+                    <a href="#">账号登录</a>
+                    <hr>
+                    <div class="scan-login">
+                            <span>使用手机app&nbsp;扫码登录</span>
+                        <div class="img-con center-block">
+                            <img src="image/jd-erweima.png" alt="二维码">
+                        </div>
+                        
+                    </div> 
+                    <div class="form_con active_con">
+                        <span class="error_tip">提示信息</span>
+                        <div class="input-group">
+                            <label class="input-group-addon" for="account"><i class="glyphicon glyphicon-user"></i></label> 
+                            <input type="text" id="account" class="form-control" placeholder="手机/邮箱/账号">
+                        </div>
+                        <span class="error_tip">提示信息</span>
+                        <div class="input-group">
+                            <label class="input-group-addon" for="password"><i class="glyphicon glyphicon-lock"></i></label>
+                            <input type="password" id="password" class="form-control" placeholder="请输入密码">
+                        </div>
+                        <a href="#" class="wjmima">忘记密码</a>
+                        <input type="submit" class="btn btn-danger btn-block" value="登录">
+                        
+                    </div>
+                </div>
+                
+               
+                <div class="login-more">
+                        <hr>
+                        <a id="login_QQ" href="#" class="btn btn-danger">
+                           <i></i>
+                           <span>QQ</span> 
+                        </a>
+                        <a id="login_WB" href="#" class="btn btn-info">
+                            <i></i>
+                            <span>微博</span>
+                        </a>
+                        <a href="register.html" class="last0a">去注册 >></a>
+                    </div>
+            </form>
+        </div>
+    </div>
+    <div class="tail">
+        <center>
+            <p class="text-center">Copyright © 2013-2015, All Rights Reserved版权所有 车享</p>
+            <p>沪ICP备14000481号</p>
+        </center>
+    </div>
+
+</body>
+
+</html>
