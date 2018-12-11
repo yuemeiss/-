@@ -33,7 +33,7 @@ DOWNLOAD_DELAY = 1
 #CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
-COOKIES_ENABLED = False
+# COOKIES_ENABLED = False
 
 # Disable Telnet Console (enabled by default)
 #TELNETCONSOLE_ENABLED = False
@@ -99,11 +99,13 @@ MONGO_PORT = 27017
 MONGO_DB = 'qiushi'
 
 #图片存储位置
-IMAGES_STORE = '/home/ubuntu/june_爬虫/scrapy框架/qiushiPro/qiushiPro/image'
+# IMAGES_STORE = '/home/ubuntu/june_爬虫/scrapy框架/qiushiPro/qiushiPro/image'
+IMAGES_STORE = '/home/ubuntu/testspider/static/images'
 
 #mysql数据库设置
 MYSQL_HOST = 'localhost'
 MYSQL_USER = 'root'
+# MYSQL_PWD = '130611'
 MYSQL_PWD = '123456'
 MYSQL_PORT = 3306
 MYSQL_DB = 'junePro'

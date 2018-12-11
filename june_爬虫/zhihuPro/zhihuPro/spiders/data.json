@@ -1,0 +1,991 @@
+{
+    "paging": {
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?session_token=4b640b020f05591ebbfa17d1cb9a7061&desktop=true&limit=7&action=down&after_id=76",
+        "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?session_token=4b640b020f05591ebbfa17d1cb9a7061&desktop=true&limit=7&action=pull&before_id=76"
+    },
+    "data": [
+        {
+            "target": {
+                "thumbnail": "https://pic1.zhimg.com/80/v2-90afe013d7723c1bbcab69e2b4fb7698_b.jpg",
+                "created": 1543502996,
+                "content": "<p></p><a class=\"video-box\" href=\"http://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1051542233878188032\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"true\" data-name=\"不限速的下载神器，到底有多快？\" data-poster=\"https://pic2.zhimg.com/v2-90afe013d7723c1bbcab69e2b4fb7698.jpg\" data-lens-id=\"1051542233878188032\">              <img class=\"thumbnail\" src=\"https://pic2.zhimg.com/v2-90afe013d7723c1bbcab69e2b4fb7698.jpg\">              <span class=\"content\">                <span class=\"title\">不限速的下载神器，到底有多快？<span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span>                <span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1051542233878188032</span>              </span>            </a>            <p><br></p><p>在众多下载器当中，IDM 下载器一直被网友们誉为逆天神器。Topbook 也曾在<a href=\"http://link.zhihu.com/?target=http%3A//mp.weixin.qq.com/s%3F__biz%3DMzU1NDgyNDQ1Ng%3D%3D%26mid%3D2247487708%26idx%3D1%26sn%3Da859de2b5f989cec435a174ea64d513e%26chksm%3Dfbdcf6bbccab7fadaf61b34b10a75687e2ad00d834e19baf75ef9b2fad80dd28e0d7eca248b0%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">五款高效的 Windows 下载器</a>中介绍过 IDM，所以，这么多人称赞的下载器到底有多好用呢？</p><p><br></p><p>在官网下载之后，直接傻瓜式安装即可。如果它没有默认安装浏览器扩展，那么需要你手动去安装一下。如果你使用的是微软的 Egde 浏览器，在微软应用商城即可下载相应扩展。</p><p><br></p><p><b>IDM 到底有多好用呢？</b></p><p><br></p><p>对于网页上的普通文件下载，我们可以看到，下载速度有时候并不理想（ QQ 邮件附件 ），但如果我们点击右键，选择使用 IDM 下载，速度是不是快了很多？</p><p><br></p><p>IDM 的下载支持多线程，而且不会主动限制你的下载。这让它完全优于很多常用下载器。不过它的厉害之处不止于此：</p><p><br></p><p>在一个普通的视频网站上，比如 TED ，当你看到一支不错的视频，想要下载到本地。如果不是技术流，平常是很难做到的。但借助 IDM ，一切就完全不一样了。</p><p><br></p><p>在安装了 IDM 扩展的浏览器中，把鼠标光标放在视频上，就会出现一个下载按钮。直接点击，另存为即可。</p><p><br></p><p>同样，如果要下载当前页面的某图片、某音乐，也是可以的。</p><p><br></p><p>但要特别注意的是，技术给了我自由开放的能力，我们自己需要有一定的道德约束，切勿使用 IDM 或者其他相关的下载器在未经许可的情况下，下载他人视频作商用。</p><p><br></p><p>欢迎在我们 Topbook 微信公众号后台回复 <b>下载器</b> 获取 IDM 以及我们推荐过的其他 <a href=\"http://link.zhihu.com/?target=http%3A//mp.weixin.qq.com/s%3F__biz%3DMzU1NDgyNDQ1Ng%3D%3D%26mid%3D2247487708%26idx%3D1%26sn%3Da859de2b5f989cec435a174ea64d513e%26chksm%3Dfbdcf6bbccab7fadaf61b34b10a75687e2ad00d834e19baf75ef9b2fad80dd28e0d7eca248b0%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">4 款下载器。</a></p><p><br></p><p><br></p><h2><b>更多资源技能戳这里：<a href=\"http://link.zhihu.com/?target=http%3A//topbook.cc/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">topbook.cc</a></b></h2><p><b>收藏也要点赞，可不敢白嫖！</b></p><p><br></p><p><b>Copyright.</b></p><p>吐血出品，未经许可不得转载、洗稿、盗用。</p>",
+                "type": "article",
+                "upvoted_followees": [],
+                "voteup_count": 263,
+                "excerpt_new": "在众多下载器当中，IDM 下载器一直被网友们誉为逆天神器。Topbook 也曾在五款高效的 Windows 下载器中介绍过 IDM，所以，这么多人称赞的下载器到底有多好用呢？ 在官网下载之后，直接傻瓜式安装即可。如果它没有默认安装浏览器扩展，那么需要你手动去安装一下。…",
+                "excerpt_title": "",
+                "excerpt": "在众多下载器当中，IDM 下载器一直被网友们誉为逆天神器。Topbook 也曾在五款高效的 Windows 下载器中介绍过 IDM，所以，这么多人称赞的下载器到底有多好用呢？ 在官网下载之后，直接傻瓜式安装即可。如果它没有默认安装浏览器扩展，那么需要你手动去安装一下。如果你使用的是微软的 Egde 浏览器，在微软应用商城即可下载相应扩展。 IDM 到底有多好用呢？ 对于网页上的普通文件下载，我们可以看到，下载速度有时候并不理想（ QQ 邮件…",
+                "thumbnail_extra_info": {
+                    "duration": 135,
+                    "width": 1280,
+                    "type": "video",
+                    "height": 720,
+                    "url": "https://pic1.zhimg.com/80/v2-90afe013d7723c1bbcab69e2b4fb7698_b.jpg",
+                    "playlist": {
+                        "sd": {
+                            "quality": "sd",
+                            "duration": 135,
+                            "width": 848,
+                            "height": 478,
+                            "size": 15997387,
+                            "url": "https://vdn.vzuu.com/SD/455c4362-f3c1-11e8-99b0-0a580a4bd8fa.mp4?auth_key=1543575318-0-0-fb8d70f3dcf0dc32dbd52fc7830c8c0d&expiration=1543575318&v=ali&bu=com&f=mp4&disable_local_cache=1",
+                            "fps": 25,
+                            "bitrate": 942,
+                            "format": "mp4"
+                        },
+                        "ld": {
+                            "quality": "ld",
+                            "duration": 135,
+                            "width": 640,
+                            "height": 360,
+                            "size": 9187120,
+                            "url": "https://vdn.vzuu.com/LD/455c4362-f3c1-11e8-99b0-0a580a4bd8fa.mp4?auth_key=1543575318-0-0-620a0ad211dda7f5532d9d2ac33d27f0&expiration=1543575318&v=ali&bu=com&f=mp4&disable_local_cache=1",
+                            "fps": 25,
+                            "bitrate": 541,
+                            "format": "mp4"
+                        },
+                        "hd": {
+                            "quality": "hd",
+                            "duration": 135,
+                            "width": 1280,
+                            "height": 720,
+                            "size": 35231155,
+                            "url": "https://vdn.vzuu.com/HD/455c4362-f3c1-11e8-99b0-0a580a4bd8fa.mp4?auth_key=1543575318-0-0-b46482f3d351e38e1d2fea34cf1b1ec4&expiration=1543575318&v=ali&bu=com&f=mp4&disable_local_cache=1",
+                            "fps": 25,
+                            "bitrate": 2076,
+                            "format": "mp4"
+                        }
+                    },
+                    "show_maker_entrance": false,
+                    "video_id": "1051542233878188032"
+                },
+                "image_url": "https://pic2.zhimg.com/50/v2-b1f7db92ad3c5cc7949caeea7ed85586_hd.jpg",
+                "preview_type": "default",
+                "column": {
+                    "title": "Topbook",
+                    "image_url": "https://pic3.zhimg.com/v2-300c91ef7806e23e4eeab0807ca632c8_b.jpg",
+                    "type": "column",
+                    "intro": "你的高效生活视频书。",
+                    "url": "https://api.zhihu.com/columns/topbook",
+                    "author": {
+                        "user_type": "people",
+                        "type": "people",
+                        "name": "匿名用户",
+                        "url": "",
+                        "avatar_url": "https://pic4.zhimg.com/aadd7b895_m.jpg",
+                        "id": "0",
+                        "url_token": "",
+                        "headline": ""
+                    },
+                    "id": "topbook",
+                    "is_following": false,
+                    "updated": 1537409076,
+                    "comment_permission": "private"
+                },
+                "id": 51179578,
+                "linkbox": {
+                    "title": "",
+                    "url": "",
+                    "category": "",
+                    "pic": ""
+                },
+                "updated": 1543502996,
+                "author": {
+                    "is_org": true,
+                    "avatar_url": "https://pic2.zhimg.com/50/v2-0585436b1f278de5852c459af78dcc71_m.jpg",
+                    "followers_count": 0,
+                    "name": "Topbook",
+                    "user_type": "organization",
+                    "url_token": "topbook",
+                    "type": "people",
+                    "headline": "topbook.cc 开启全新的高效生活方式！",
+                    "badge": [
+                        {
+                            "description": "已认证的官方帐号",
+                            "type": "identity"
+                        }
+                    ],
+                    "url": "https://api.zhihu.com/people/f718e17014c2dd5cb070c2b9def43dd9",
+                    "is_following": false,
+                    "id": "f718e17014c2dd5cb070c2b9def43dd9",
+                    "gender": 0,
+                    "is_followed": false
+                },
+                "url": "https://api.zhihu.com/articles/51179578",
+                "title": "不限速的下载神器，到底有多快？",
+                "preview_text": "",
+                "comment_count": 32,
+                "comment_permission": "all",
+                "voting": 0
+            },
+            "uninterest_reasons": [
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19580349",
+                    "reason_id": 3,
+                    "reason_text": "计算机科学"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19550517",
+                    "reason_id": 3,
+                    "reason_text": "互联网"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19551147",
+                    "reason_id": 3,
+                    "reason_text": "生活"
+                },
+                {
+                    "object_type": "people",
+                    "reason_type": "creator",
+                    "object_token": "f718e17014c2dd5cb070c2b9def43dd9",
+                    "reason_id": 2,
+                    "reason_text": "Topbook 创作的内容"
+                }
+            ],
+            "offset": 70,
+            "created_time": 1543571982,
+            "action_text_tpl": "热门内容, 来自: {}",
+            "updated_time": 1543571982,
+            "show_actor_time": false,
+            "action_text": "计算机科学",
+            "type": "feed",
+            "actors": [
+                {
+                    "name": "计算机科学",
+                    "avatar_url": "https://pic2.zhimg.com/50/v2-2425584cf56e7caae35080a03010a30a_s.png",
+                    "url": "https://api.zhihu.com/topics/19580349",
+                    "type": "topic",
+                    "introduction": "",
+                    "id": "19580349",
+                    "excerpt": ""
+                }
+            ],
+            "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+            "id": "70_1543571982.489",
+            "action_card": false,
+            "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 51179578}",
+            "attached_info": "CsEBCPnauPy5sO2b/AEQBxoIMTA0MzQ0NTcglPn/3wUohwIwIEBGSg0KAlZUEgMzMDcYACABUhZ2aWRlb3RvcGljX2FkZF9hcnRpY2xlWgU4NDUxOGiAoIWl8oL1yw5yCDUxMTc5NTc4eCKCAUBodHRwczovL3BpYzIuemhpbWcuY29tL3YyLWIxZjdkYjkyYWQzYzVjYzc5NDljYWVlYTdlZDg1NTg2X3IuanBnigEHdG9wYm9va6oBCXJlY29tbWVuZA=="
+        },
+        {
+            "target": {
+                "question": {
+                    "detail": "",
+                    "follower_count": 27896,
+                    "created": 1521599232,
+                    "relationship": {
+                        "is_author": false
+                    },
+                    "title": "男生长得帅是一种什么体验？",
+                    "type": "question",
+                    "answer_count": 5940,
+                    "author": {
+                        "is_org": false,
+                        "avatar_url": "https://pic3.zhimg.com/50/v2-8826a602ed71ea99d4c0c0dcbd6937b0_m.jpg",
+                        "followers_count": 0,
+                        "name": "呆萌呆萌酱",
+                        "user_type": "people",
+                        "url_token": "xiao-xiong-hai-zi-60",
+                        "type": "people",
+                        "headline": "",
+                        "badge": [],
+                        "url": "https://api.zhihu.com/people/ef76f57224059e43f212f33d22018260",
+                        "is_following": false,
+                        "id": "ef76f57224059e43f212f33d22018260",
+                        "gender": 0,
+                        "is_followed": false
+                    },
+                    "url": "https://api.zhihu.com/questions/269297730",
+                    "is_following": false,
+                    "id": 269297730,
+                    "excerpt": "在一切条件都平等的情况下，一个男生长得帅是一种什么感受，普通的家境、普通的性格…",
+                    "comment_count": 75,
+                    "bound_topic_ids": [
+                        1818,
+                        10486,
+                        77428
+                    ]
+                },
+                "excerpt_new": "哈哈 假装有被邀 脸反正够厚 先上一张图 普普通通下班的一天，疲惫的倚靠在地铁里，看到某人的消息嘴角上扬 然后一张迷之角度的偷拍照，居然有人点赞，配文也没有，居然有近5K，看了评论，居然... 我~ 是我看了多年看惯了？ 不，我知道 这就是古人说犹抱琵琶半…",
+                "preview_text": "",
+                "created_time": 1539402411,
+                "thanks_count": 160,
+                "updated_time": 1539402432,
+                "is_copyable": false,
+                "preview_type": "default",
+                "content": "<p>哈哈  假装有被邀 脸反正够厚</p><p><br></p><p><br></p><p>先上一张图</p><figure><img src=\"https://pic3.zhimg.com/v2-88c7160060bbcf690c0a28e887681825_b.jpg\" data-rawwidth=\"669\" data-rawheight=\"777\" data-size=\"normal\" data-caption=\"\" class=\"origin_image zh-lightbox-thumb\" width=\"669\" data-original=\"https://pic3.zhimg.com/v2-88c7160060bbcf690c0a28e887681825_r.jpg\"></figure><p>普普通通下班的一天，疲惫的倚靠在地铁里，看到某人的消息嘴角上扬</p><p>然后一张迷之角度的偷拍照，居然有人点赞，配文也没有，居然有近5K，看了评论，居然...</p><p><br></p><p><br></p><p>我~</p><p>是我看了多年看惯了？</p><p>不，我知道</p><p>这就是古人说犹抱琵琶半遮面的效果吧</p><p>因为你看不清 看不见</p><p>意淫总是美好的</p><p><br></p><p><br></p><p>好了砖头撞墙了 </p><p>说一下这个事的起因吧</p><p>我朋友刷知乎看到这个回答，立刻转给了我</p><p>“这个就是你啊，哈哈哈（嘲笑脸）”</p><p><br></p><p>我</p><figure><img src=\"https://pic3.zhimg.com/v2-3a38f6a5e15c4143f200148103bbf851_b.jpg\" data-rawwidth=\"1200\" data-rawheight=\"1200\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"1200\" data-original=\"https://pic3.zhimg.com/v2-3a38f6a5e15c4143f200148103bbf851_r.jpg\"></figure><p><br></p><p><br></p><p>我不会认为自己是个帅哥，因为我见过那种长得让我很惊艳至今念念不忘的帅哥，一次是初中艺考，一次是看牙医在候诊室里。</p><p>所以我觉得长得帅真的会让人过目不忘吧</p><p><br></p><p><br></p><p>好了，我要打破有些人的梦了</p><p>233</p><p>意淫结束，面对现实吧~！！！！</p><figure><img src=\"https://pic3.zhimg.com/v2-185b702ec570ec1a2471c21f03f0b592_b.jpg\" data-rawwidth=\"1361\" data-rawheight=\"1845\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"1361\" data-original=\"https://pic3.zhimg.com/v2-185b702ec570ec1a2471c21f03f0b592_r.jpg\"></figure><p></p>",
+                "type": "answer",
+                "mark_infos": [],
+                "thumbnail": "https://pic3.zhimg.com/50/v2-5325a50dad828e04f2e61a949534d822_200x112.jpg",
+                "author": {
+                    "is_org": false,
+                    "avatar_url": "https://pic1.zhimg.com/50/v2-337857a4b33156b6d0f53faa23d9a472_m.jpg",
+                    "followers_count": 0,
+                    "name": "奥特曼",
+                    "user_type": "people",
+                    "url_token": "ao-te-man-95-61",
+                    "type": "people",
+                    "headline": "不做网红只做网兜 抖音潜水（号：huangdeng） 神棍 厨男 铲屎官 弯的",
+                    "badge": [],
+                    "url": "https://api.zhihu.com/people/592ac2fc6e45ce1b6e65b0ecfec0ad41",
+                    "is_following": false,
+                    "id": "592ac2fc6e45ce1b6e65b0ecfec0ad41",
+                    "gender": 1,
+                    "is_followed": false
+                },
+                "url": "https://api.zhihu.com/answers/509678965",
+                "relationship": {
+                    "upvoted_followee_ids": [],
+                    "voting": 0,
+                    "is_thanked": false,
+                    "is_nothelp": false
+                },
+                "id": 509678965,
+                "excerpt": "哈哈 假装有被邀 脸反正够厚 先上一张图普普通通下班的一天，疲惫的倚靠在地铁里，看到某人的消息嘴角上扬然后一张迷之角度的偷拍照，居然有人点赞，配文也没有，居然有近5K，看了评论，居然... 我~是我看了多年看惯了？不，我知道这就是古人说犹抱琵琶半遮面的效果吧因为你看不清 看不见意淫总是美好的 好了砖头撞墙了 说一下这个事的起因吧我朋友刷知乎看到这个回答，立刻转给了我“这个就是你啊，哈哈哈（嘲笑脸）” 我 我不…",
+                "comment_count": 689,
+                "voteup_count": 1958,
+                "reshipment_settings": "need_payment"
+            },
+            "uninterest_reasons": [
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19781002",
+                    "reason_id": 3,
+                    "reason_text": "男生形象"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19555691",
+                    "reason_id": 3,
+                    "reason_text": "帅哥"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19581716",
+                    "reason_id": 3,
+                    "reason_text": "男生"
+                },
+                {
+                    "object_type": "people",
+                    "reason_type": "creator",
+                    "object_token": "592ac2fc6e45ce1b6e65b0ecfec0ad41",
+                    "reason_id": 2,
+                    "reason_text": "奥特曼创作的内容"
+                }
+            ],
+            "offset": 71,
+            "created_time": 1543571982,
+            "action_text_tpl": "热门内容, 来自: {}",
+            "updated_time": 1543571982,
+            "show_actor_time": false,
+            "action_text": "帅哥",
+            "type": "feed",
+            "actors": [
+                {
+                    "name": "帅哥",
+                    "avatar_url": "https://pic2.zhimg.com/50/v2-8d9194063632ad2ed9dc02bf72f88bee_s.jpg",
+                    "url": "https://api.zhihu.com/topics/19555691",
+                    "meta": {
+                        "category": "n_wiki",
+                        "type": "metapedia",
+                        "id": 1023622242566979584
+                    },
+                    "type": "topic",
+                    "introduction": "",
+                    "id": "19555691",
+                    "excerpt": ""
+                }
+            ],
+            "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+            "id": "71_1543571982.462",
+            "action_card": false,
+            "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 509678965}",
+            "attached_info": "Cn8I+dq4/Lmw7Zv8ARAEGgkxMjI3MzkxNzEgq9WF3gUopg8wsQVAR0oNCgRJQ0FOEgEwGAAgAFIZaXRlbV9jZl9hbnN3ZXJfYWRkX2Fuc3dlcloIMjIxMTkxMTNyCTUwOTY3ODk2NXgJigEJMjY5Mjk3NzMwqgEJcmVjb21tZW5k"
+        },
+        {
+            "target": {
+                "question": {
+                    "detail": "",
+                    "follower_count": 3728,
+                    "created": 1425530082,
+                    "relationship": {
+                        "is_author": false
+                    },
+                    "title": "突然不喜欢我男朋友了 怎么办？",
+                    "type": "question",
+                    "answer_count": 769,
+                    "author": {
+                        "user_type": "people",
+                        "type": "people",
+                        "name": "匿名用户",
+                        "url": "",
+                        "avatar_url": "https://pic4.zhimg.com/aadd7b895_m.jpg",
+                        "id": "0",
+                        "url_token": "",
+                        "headline": ""
+                    },
+                    "url": "https://api.zhihu.com/questions/28535895",
+                    "is_following": false,
+                    "id": 28535895,
+                    "excerpt": "和男朋友在一起两个多月了 刚开始的时候感觉挺喜欢她的 可是最近我突然觉得我不喜欢…",
+                    "comment_count": 152,
+                    "bound_topic_ids": [
+                        26138,
+                        47282,
+                        80985
+                    ]
+                },
+                "excerpt_new": "和前男友在一起将近七年，双方家人都很满意，在所有认识我们的人看来，我们是注定会结婚生子携手一生的神仙眷侣。 可是，我提了分手。 高一下学期文理分班，他分到我们班，分完班没几天放暑假，我闲来无聊在班里群里加了几个新来的同学的qq，也包括他。然后我发…",
+                "preview_text": "",
+                "created_time": 1539074063,
+                "thanks_count": 402,
+                "updated_time": 1539074063,
+                "is_copyable": true,
+                "preview_type": "default",
+                "content": "<p>和前男友在一起将近七年，双方家人都很满意，在所有认识我们的人看来，我们是注定会结婚生子携手一生的神仙眷侣。</p><p>可是，我提了分手。</p><p>高一下学期文理分班，他分到我们班，分完班没几天放暑假，我闲来无聊在班里群里加了几个新来的同学的qq，也包括他。然后我发现他在打穿越火线，正好我也在玩，就和他一起，一玩就是一个假期。在此期间，我们聊许嵩，聊郭敬明的爵迹，聊火影和海贼王。我们惊讶于彼此的兴趣相投，成为了默契的好朋友。</p><p>开学之后，我对他展开了狂轰滥炸的追求，零食早餐笔记，能送的都往他手里送，两个月之后，他表白了，接下来就是顺理成章在一起。</p><p>他性格温和，宽厚善良，彬彬有礼，我在他身上几乎找不到缺点。我是个脾气火爆的人，每次我发火，他都托着腮盯着我看，等到我骂累了，他就笑着说；我媳妇发火都这么好看，我想跟你吵都不舍得开口啊。</p><p>所以，在一起七年，我们没有吵过架。都是我在闹，他在笑。</p><p>高考我发挥失常，上了成都的一所普通211，他留在天津上了一个信息类的三本院校。然后就是四年异地恋。</p><p>这四年里，他深知异地不易，竭尽全力让我放心。他跟女生从来不留联系方式，即使同班同学也只是有事的时候在群里说。每天早请示晚汇报，有事没事买个礼物，在网吧打游戏接到我的电话也会跑到外面跟我聊上一个小时。</p><p>我渐渐收敛了脾气，不再对他发脾气，不再胡闹。学着做他爱吃的饭，留起他喜欢的长发，每个月给他寄零食，他说他都不习惯了，哈哈哈。</p><p>毕业后，我留在成都二战考研，他在北京做了程序猿。两家人都说等我研究生毕业就结婚，可是此时，我提了分手。</p><p>真的不爱了。</p><p>我是怎么发现的呢？细节太多了，太多了。</p><p>也许是他一天没联系我我却想不起来的时候，也许是我没有心情再去了解他吃了什么做了什么的时候，也许是好不容易见了面他脱我的衣服我却只想抗拒的时候，也许是他牵着我的手我不再想抓紧的时候…</p><p>可是，这是为什么呢？我明明很爱他啊。</p><p>我想不出原因，他依然那么好，无论我做什么他都不会多问，我晚上出去和朋友喝酒他只会告诉我早点回，虽然每次都等我到家告诉他他才睡，可不管多晚都不会催促，怕我扫兴。我说一句腰疼他就给我买了艾灸盒和暖宝宝，我说想吃点心他一大早去鲍师傅排队然后寄给我，我家人生了病他请假赶回去照顾。桩桩件件，他都算是模范男友，可我，还是抛弃了他。</p><p>我不能接受自己和一个让我产生不了欲望的人在一起，他还是很帅，身材还是高大健硕，可那具曾经让我痴迷的美好肉体，已经挑不起我的欲望了。</p><p>我真的爱过他，可最后，我依然最爱我自己。</p><p>我提了分手，因为我很清楚这不是平淡，是厌倦。</p><p>平淡是可贵的，厌倦是没有尽头的。</p><p>我不能因为他对我好就拖着他继续走下去，那样才是对他的一腔真心的莫大侮辱。</p><p>当爱情烟消云散，我能给他的最大的温柔，是诚实。</p><p></p><p></p>",
+                "type": "answer",
+                "mark_infos": [],
+                "thumbnail": "",
+                "author": {
+                    "is_org": false,
+                    "avatar_url": "https://pic4.zhimg.com/50/v2-56612e57d5c1e0ab219103837f37427e_m.jpg",
+                    "followers_count": 0,
+                    "name": "王三岁今天四岁啦",
+                    "user_type": "people",
+                    "url_token": "wang-san-sui-jin-tian-si-sui-la",
+                    "type": "people",
+                    "headline": "只能靠嘴吃饭。",
+                    "badge": [],
+                    "url": "https://api.zhihu.com/people/97b6ebdec7a51335e60a712f067e98eb",
+                    "is_following": false,
+                    "id": "97b6ebdec7a51335e60a712f067e98eb",
+                    "gender": 0,
+                    "is_followed": false
+                },
+                "url": "https://api.zhihu.com/answers/507079200",
+                "relationship": {
+                    "upvoted_followee_ids": [],
+                    "voting": 0,
+                    "is_thanked": false,
+                    "is_nothelp": false
+                },
+                "id": 507079200,
+                "excerpt": "和前男友在一起将近七年，双方家人都很满意，在所有认识我们的人看来，我们是注定会结婚生子携手一生的神仙眷侣。可是，我提了分手。高一下学期文理分班，他分到我们班，分完班没几天放暑假，我闲来无聊在班里群里加了几个新来的同学的qq，也包括他。然后我发现他在打穿越火线，正好我也在玩，就和他一起，一玩就是一个假期。在此期间，我们聊许嵩，聊郭敬明的爵迹，聊火影和海贼王。我们惊讶于彼此的兴趣相投，成为了默契的好朋…",
+                "comment_count": 2000,
+                "voteup_count": 3307,
+                "reshipment_settings": "allowed"
+            },
+            "uninterest_reasons": [
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19791745",
+                    "reason_id": 3,
+                    "reason_text": "恋爱关系"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19628384",
+                    "reason_id": 3,
+                    "reason_text": "恋爱心理"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19691659",
+                    "reason_id": 3,
+                    "reason_text": "恋人相处"
+                },
+                {
+                    "object_type": "people",
+                    "reason_type": "creator",
+                    "object_token": "97b6ebdec7a51335e60a712f067e98eb",
+                    "reason_id": 2,
+                    "reason_text": "王三岁今天四岁啦创作的内容"
+                }
+            ],
+            "offset": 72,
+            "created_time": 1543571982,
+            "action_text_tpl": "热门内容, 来自: {}",
+            "updated_time": 1543571982,
+            "show_actor_time": false,
+            "action_text": "恋爱心理",
+            "type": "feed",
+            "actors": [
+                {
+                    "name": "恋爱心理",
+                    "avatar_url": "https://pic1.zhimg.com/50/13b20ad1ea4c065717c3db65d227f0d4_s.jpg",
+                    "url": "https://api.zhihu.com/topics/19628384",
+                    "type": "topic",
+                    "introduction": "",
+                    "id": "19628384",
+                    "excerpt": ""
+                }
+            ],
+            "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+            "id": "72_1543571982.887",
+            "action_card": false,
+            "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 507079200}",
+            "attached_info": "CoIBCPnauPy5sO2b/AEQBBoJMTIyMjY2MTQzII/Q8d0FKOsZMNAPQEhKDAoDVEJTEgEwGAAgAFIfdGFnX2Jhc2VkX3Nob3J0X3Rlcm1fYWRkX2Fuc3dlcloHMzU5NzIwMnIJNTA3MDc5MjAweBOKAQgyODUzNTg5NaoBCXJlY29tbWVuZA=="
+        },
+        {
+            "target": {
+                "question": {
+                    "detail": "",
+                    "follower_count": 3121,
+                    "created": 1439974482,
+                    "relationship": {
+                        "is_author": false
+                    },
+                    "title": "男士有什么好打理又好看的发型（除寸头外）？",
+                    "type": "question",
+                    "answer_count": 83,
+                    "author": {
+                        "is_org": false,
+                        "avatar_url": "https://pic2.zhimg.com/50/46a8914551b32ad576f56486e014e82f_m.jpg",
+                        "followers_count": 0,
+                        "name": "Mercy Law",
+                        "user_type": "people",
+                        "url_token": "mercy-law",
+                        "type": "people",
+                        "headline": "dont let me get in my zone",
+                        "badge": [],
+                        "url": "https://api.zhihu.com/people/b173dff0c3537793ab6334bf782b3efc",
+                        "is_following": false,
+                        "id": "b173dff0c3537793ab6334bf782b3efc",
+                        "gender": 1,
+                        "is_followed": false
+                    },
+                    "url": "https://api.zhihu.com/questions/34812534",
+                    "is_following": false,
+                    "id": 34812534,
+                    "excerpt": "如题，题主大学前一直是寸头，工作以后觉得寸头太孩子气，烫了下小卷，后来长了就背…",
+                    "comment_count": 3,
+                    "bound_topic_ids": [
+                        3529,
+                        10600,
+                        13658,
+                        50349,
+                        108263
+                    ]
+                },
+                "excerpt_new": "谢邀 之前很多朋友在我公号留言说： 没有找到喜欢的发型？ 没有一张满意的照片交给理发师？ 今天逛知乎偶然看了你的问题和烦恼，我决定再分享一次 这里有50款2018年上半年最流行的经典发型， 让你尽情选择~ 看中的发型图片保存， 交给你的理发师就好哦~",
+                "preview_text": "",
+                "created_time": 1541834977,
+                "thanks_count": 69,
+                "updated_time": 1541835042,
+                "is_copyable": true,
+                "preview_type": "default",
+                "content": "<p>谢邀</p><p>之前很多朋友在我公号留言说：</p><p><b>没有找到喜欢的发型？</b></p><p><b>没有一张满意的照片交给理发师？</b></p><p>今天逛知乎偶然看了你的问题和烦恼，我决定再分享一次</p><p>这里有50款2018年上半年最流行的经典发型，</p><p>让你尽情选择~</p><p>看中的发型图片保存，</p><p>交给你的理发师就好哦~</p><figure><img src=\"https://pic1.zhimg.com/v2-09c086b458adeecb241ec8525ee0c06e_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"750\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pic1.zhimg.com/v2-09c086b458adeecb241ec8525ee0c06e_r.jpg\"></figure><figure><img src=\"https://pic4.zhimg.com/v2-fcfb57d36caba8b1091c0319364d7f21_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"846\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic4.zhimg.com/v2-fcfb57d36caba8b1091c0319364d7f21_r.jpg\"></figure><figure><img src=\"https://pic3.zhimg.com/v2-57d4525d04c1f3ad4630d73b50e715ef_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"705\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic3.zhimg.com/v2-57d4525d04c1f3ad4630d73b50e715ef_r.jpg\"></figure><figure><img src=\"https://pic2.zhimg.com/v2-1ce56c7c9cf81d7ebbca45563e5adcf3_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"755\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic2.zhimg.com/v2-1ce56c7c9cf81d7ebbca45563e5adcf3_r.jpg\"></figure><figure><img src=\"https://pic3.zhimg.com/v2-3d95da67a37c91f4c0643d246d19e0c0_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"846\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic3.zhimg.com/v2-3d95da67a37c91f4c0643d246d19e0c0_r.jpg\"></figure><figure><img src=\"https://pic1.zhimg.com/v2-b30aae7a029f28c18d08028c71696f07_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"750\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pic1.zhimg.com/v2-b30aae7a029f28c18d08028c71696f07_r.jpg\"></figure><figure><img src=\"https://pic1.zhimg.com/v2-5f4b04d9ba0bde9e9edd8e2b774d41f7_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"846\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic1.zhimg.com/v2-5f4b04d9ba0bde9e9edd8e2b774d41f7_r.jpg\"></figure><figure><img src=\"https://pic3.zhimg.com/v2-f05cf1b8283890194bc5efef03e0522b_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"625\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pic3.zhimg.com/v2-f05cf1b8283890194bc5efef03e0522b_r.jpg\"></figure><figure><img src=\"https://pic4.zhimg.com/v2-85e16cd4861a0121d9e6762e9fe3653b_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"472\" data-rawheight=\"594\" class=\"origin_image zh-lightbox-thumb\" width=\"472\" data-original=\"https://pic4.zhimg.com/v2-85e16cd4861a0121d9e6762e9fe3653b_r.jpg\"></figure><figure><img src=\"https://pic4.zhimg.com/v2-c2b022da5a56b2d67687a85412cde545_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"705\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic4.zhimg.com/v2-c2b022da5a56b2d67687a85412cde545_r.jpg\"></figure><figure><img src=\"https://pic1.zhimg.com/v2-d089788ecb87c03f74ce0682c31f6df9_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"846\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic1.zhimg.com/v2-d089788ecb87c03f74ce0682c31f6df9_r.jpg\"></figure><figure><img src=\"https://pic4.zhimg.com/v2-2555be6c3530a1f8ea6acc4ddb4031ae_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"730\" data-rawheight=\"964\" class=\"origin_image zh-lightbox-thumb\" width=\"730\" data-original=\"https://pic4.zhimg.com/v2-2555be6c3530a1f8ea6acc4ddb4031ae_r.jpg\"></figure><figure><img src=\"https://pic1.zhimg.com/v2-3ff9d5c08e864ea0527b6a8b7346555c_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"699\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pic1.zhimg.com/v2-3ff9d5c08e864ea0527b6a8b7346555c_r.jpg\"></figure><figure><img src=\"https://pic3.zhimg.com/v2-ec13c299bea4f17e54b4e6b234fc7db2_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"704\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic3.zhimg.com/v2-ec13c299bea4f17e54b4e6b234fc7db2_r.jpg\"></figure><figure><img src=\"https://pic1.zhimg.com/v2-8e3c176a0a8136d2ced6aa2a8b94e0ee_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"484\" data-rawheight=\"618\" class=\"origin_image zh-lightbox-thumb\" width=\"484\" data-original=\"https://pic1.zhimg.com/v2-8e3c176a0a8136d2ced6aa2a8b94e0ee_r.jpg\"></figure><figure><img src=\"https://pic2.zhimg.com/v2-b88a3316fc2ba0cf454642b9e7db91ca_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"700\" data-rawheight=\"500\" class=\"origin_image zh-lightbox-thumb\" width=\"700\" data-original=\"https://pic2.zhimg.com/v2-b88a3316fc2ba0cf454642b9e7db91ca_r.jpg\"></figure><figure><img src=\"https://pic2.zhimg.com/v2-d85ff6e384c4aa729b2af3b186fe3287_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"750\" data-rawheight=\"692\" class=\"origin_image zh-lightbox-thumb\" width=\"750\" data-original=\"https://pic2.zhimg.com/v2-d85ff6e384c4aa729b2af3b186fe3287_r.jpg\"></figure><figure><img src=\"https://pic4.zhimg.com/v2-26edb9fa0863192695380152a3573062_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"750\" data-rawheight=\"500\" class=\"origin_image zh-lightbox-thumb\" width=\"750\" data-original=\"https://pic4.zhimg.com/v2-26edb9fa0863192695380152a3573062_r.jpg\"></figure><figure><img src=\"https://pic4.zhimg.com/v2-1a18387b1f7800828b1dd3ad6b92dd79_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"540\" data-rawheight=\"810\" class=\"origin_image zh-lightbox-thumb\" width=\"540\" data-original=\"https://pic4.zhimg.com/v2-1a18387b1f7800828b1dd3ad6b92dd79_r.jpg\"></figure><figure><img src=\"https://pic1.zhimg.com/v2-516762fb6521fc6625a96b993f43f441_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"552\" data-rawheight=\"690\" class=\"origin_image zh-lightbox-thumb\" width=\"552\" data-original=\"https://pic1.zhimg.com/v2-516762fb6521fc6625a96b993f43f441_r.jpg\"></figure><figure><img src=\"https://pic2.zhimg.com/v2-6bc77376f071e0dca508cf8006f04abf_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"846\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic2.zhimg.com/v2-6bc77376f071e0dca508cf8006f04abf_r.jpg\"></figure><figure><img src=\"https://pic4.zhimg.com/v2-0f293705c64c42a393d690008af4ac31_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"846\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic4.zhimg.com/v2-0f293705c64c42a393d690008af4ac31_r.jpg\"></figure><figure><img src=\"https://pic2.zhimg.com/v2-60ed5dba14d088b62478dfa4c185c350_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"457\" data-rawheight=\"664\" class=\"origin_image zh-lightbox-thumb\" width=\"457\" data-original=\"https://pic2.zhimg.com/v2-60ed5dba14d088b62478dfa4c185c350_r.jpg\"></figure><figure><img src=\"https://pic3.zhimg.com/v2-9cd6943574765da4565d6e30b931c24e_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"440\" data-rawheight=\"562\" class=\"origin_image zh-lightbox-thumb\" width=\"440\" data-original=\"https://pic3.zhimg.com/v2-9cd6943574765da4565d6e30b931c24e_r.jpg\"></figure><figure><img src=\"https://pic1.zhimg.com/v2-0c5fc11fbb0e20e33ef59583385ca9b2_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"846\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic1.zhimg.com/v2-0c5fc11fbb0e20e33ef59583385ca9b2_r.jpg\"></figure><figure><img src=\"https://pic2.zhimg.com/v2-cdbd08ff008a8e0cc91ce3dc7c3f037c_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"476\" data-rawheight=\"666\" class=\"origin_image zh-lightbox-thumb\" width=\"476\" data-original=\"https://pic2.zhimg.com/v2-cdbd08ff008a8e0cc91ce3dc7c3f037c_r.jpg\"></figure><figure><img src=\"https://pic1.zhimg.com/v2-8360f566633cc26065328b77dc1c5535_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"464\" data-rawheight=\"616\" class=\"origin_image zh-lightbox-thumb\" width=\"464\" data-original=\"https://pic1.zhimg.com/v2-8360f566633cc26065328b77dc1c5535_r.jpg\"></figure><figure><img src=\"https://pic3.zhimg.com/v2-9313040a43bda85fb8d5bc04d97d6072_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"704\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic3.zhimg.com/v2-9313040a43bda85fb8d5bc04d97d6072_r.jpg\"></figure><figure><img src=\"https://pic2.zhimg.com/v2-02b165879039b34c386a9155ac8e2394_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"1002\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic2.zhimg.com/v2-02b165879039b34c386a9155ac8e2394_r.jpg\"></figure><figure><img src=\"https://pic4.zhimg.com/v2-872eff73638df777625b30135c0cd16c_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"750\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pic4.zhimg.com/v2-872eff73638df777625b30135c0cd16c_r.jpg\"></figure><figure><img src=\"https://pic3.zhimg.com/v2-77c01eb7b81e6f51c5f835a638ffd3f6_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"846\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic3.zhimg.com/v2-77c01eb7b81e6f51c5f835a638ffd3f6_r.jpg\"></figure><figure><img src=\"https://pic3.zhimg.com/v2-c8a1318603678ef929c6d33ad21f71d2_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"484\" data-rawheight=\"621\" class=\"origin_image zh-lightbox-thumb\" width=\"484\" data-original=\"https://pic3.zhimg.com/v2-c8a1318603678ef929c6d33ad21f71d2_r.jpg\"></figure><figure><img src=\"https://pic2.zhimg.com/v2-3b24ba7e5b90f0be3e36d431ae8b1466_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"540\" data-rawheight=\"688\" class=\"origin_image zh-lightbox-thumb\" width=\"540\" data-original=\"https://pic2.zhimg.com/v2-3b24ba7e5b90f0be3e36d431ae8b1466_r.jpg\"></figure><figure><img src=\"https://pic1.zhimg.com/v2-1a9b1e74da59feb01fef11ae749de264_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"730\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic1.zhimg.com/v2-1a9b1e74da59feb01fef11ae749de264_r.jpg\"></figure><figure><img src=\"https://pic3.zhimg.com/v2-cc8f8ac8e9c664cd9f673e65d919c7cc_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"750\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pic3.zhimg.com/v2-cc8f8ac8e9c664cd9f673e65d919c7cc_r.jpg\"></figure><figure><img src=\"https://pic3.zhimg.com/v2-cecc93c2a54ed269cc9d6e634f2dd3e6_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"640\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic3.zhimg.com/v2-cecc93c2a54ed269cc9d6e634f2dd3e6_r.jpg\"></figure><figure><img src=\"https://pic2.zhimg.com/v2-170756d8cf3d5f04dcb95b937f3714cd_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"750\" data-rawheight=\"715\" class=\"origin_image zh-lightbox-thumb\" width=\"750\" data-original=\"https://pic2.zhimg.com/v2-170756d8cf3d5f04dcb95b937f3714cd_r.jpg\"></figure><figure><img src=\"https://pic3.zhimg.com/v2-f034ac2c8f4ed56eea50a37ba647b09b_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"534\" data-rawheight=\"800\" class=\"origin_image zh-lightbox-thumb\" width=\"534\" data-original=\"https://pic3.zhimg.com/v2-f034ac2c8f4ed56eea50a37ba647b09b_r.jpg\"></figure><figure><img src=\"https://pic4.zhimg.com/v2-f2d60b1436a9765426b3557769c747c1_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"750\" data-rawheight=\"917\" class=\"origin_image zh-lightbox-thumb\" width=\"750\" data-original=\"https://pic4.zhimg.com/v2-f2d60b1436a9765426b3557769c747c1_r.jpg\"></figure>",
+                "type": "answer",
+                "mark_infos": [],
+                "thumbnail": "https://pic3.zhimg.com/50/v2-8268ec33dea524acfd3d9695022e133a_200x112.jpg",
+                "author": {
+                    "is_org": false,
+                    "avatar_url": "https://pic2.zhimg.com/50/v2-7585c65c2388b1898342d53a9dc36b22_m.jpg",
+                    "followers_count": 0,
+                    "name": "小野校长",
+                    "user_type": "people",
+                    "url_token": "xiao-chang-61-69",
+                    "type": "people",
+                    "headline": "被删的文章都在公众号“小野校长”里面，关注后回复“变帅”送你我的变帅秘诀",
+                    "badge": [],
+                    "url": "https://api.zhihu.com/people/3072f55ae553e7d0145f37b1d9ca26f9",
+                    "is_following": false,
+                    "id": "3072f55ae553e7d0145f37b1d9ca26f9",
+                    "gender": 0,
+                    "is_followed": false
+                },
+                "url": "https://api.zhihu.com/answers/528781296",
+                "relationship": {
+                    "upvoted_followee_ids": [],
+                    "voting": 0,
+                    "is_thanked": false,
+                    "is_nothelp": false
+                },
+                "id": 528781296,
+                "excerpt": "谢邀之前很多朋友在我公号留言说：<b>没有找到喜欢的发型？</b><b>没有一张满意的照片交给理发师？</b>今天逛知乎偶然看了你的问题和烦恼，我决定再分享一次这里有50款2018年上半年最流行的经典发型，让你尽情选择~看中的发型图片保存，交给你的理发师就好哦~",
+                "comment_count": 42,
+                "voteup_count": 174,
+                "reshipment_settings": "allowed"
+            },
+            "uninterest_reasons": [
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19560791",
+                    "reason_id": 3,
+                    "reason_text": "发型"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19591242",
+                    "reason_id": 3,
+                    "reason_text": "发型设计"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19700840",
+                    "reason_id": 3,
+                    "reason_text": "男士发型"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19868716",
+                    "reason_id": 3,
+                    "reason_text": "男装搭配"
+                },
+                {
+                    "object_type": "people",
+                    "reason_type": "creator",
+                    "object_token": "3072f55ae553e7d0145f37b1d9ca26f9",
+                    "reason_id": 2,
+                    "reason_text": "小野校长创作的内容"
+                }
+            ],
+            "offset": 73,
+            "created_time": 1543571982,
+            "action_text_tpl": "热门内容, 来自: {}",
+            "updated_time": 1543571982,
+            "show_actor_time": false,
+            "action_text": "发型",
+            "type": "feed",
+            "actors": [
+                {
+                    "name": "发型",
+                    "avatar_url": "https://pic1.zhimg.com/50/v2-3f685301d9e9a1b812a591a3f0674250_s.jpg",
+                    "url": "https://api.zhihu.com/topics/19560791",
+                    "meta": {
+                        "category": "n_wiki",
+                        "type": "metapedia",
+                        "id": 1023604042739662848
+                    },
+                    "type": "topic",
+                    "introduction": "",
+                    "id": "19560791",
+                    "excerpt": ""
+                }
+            ],
+            "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+            "id": "73_1543571982.330",
+            "action_card": false,
+            "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 528781296}",
+            "attached_info": "CoEBCPnauPy5sO2b/AEQBBoJMTI2MjEyMDY3IOGRmt8FKK4BMCpASUoMCgNUQlMSATAYACAAUh90YWdfYmFzZWRfc2hvcnRfdGVybV9hZGRfYW5zd2VyWgc2MTMxNTgxcgk1Mjg3ODEyOTZ4E4oBCDM0ODEyNTM0qgEJcmVjb21tZW5k"
+        },
+        {
+            "target": {
+                "question": {
+                    "detail": "",
+                    "follower_count": 99156,
+                    "created": 1505469753,
+                    "relationship": {
+                        "is_author": false
+                    },
+                    "title": "生活中你听到过哪些忍俊不禁的对话？",
+                    "type": "question",
+                    "answer_count": 11361,
+                    "author": {
+                        "is_org": false,
+                        "avatar_url": "https://pic3.zhimg.com/50/v2-ad064613716e4bec9d42caf36828fea5_m.jpg",
+                        "followers_count": 0,
+                        "name": "某火",
+                        "user_type": "people",
+                        "url_token": "mou-huo-20",
+                        "type": "people",
+                        "headline": "",
+                        "badge": [],
+                        "url": "https://api.zhihu.com/people/8fa44c4369d78433dc175024d8cd71dc",
+                        "is_following": false,
+                        "id": "8fa44c4369d78433dc175024d8cd71dc",
+                        "gender": 0,
+                        "is_followed": false
+                    },
+                    "url": "https://api.zhihu.com/questions/65389861",
+                    "is_following": false,
+                    "id": 65389861,
+                    "excerpt": "",
+                    "comment_count": 73,
+                    "bound_topic_ids": [
+                        1307,
+                        2293,
+                        4447,
+                        5582,
+                        12262
+                    ]
+                },
+                "excerpt_new": "我们宿舍巨乳小姐姐是很害羞的那种妹子，一直羡慕我胸平穿衣服好看，而我由衷的羡慕她胸大。 有一天日常互怼，我说“二哥你个F！”，她很羞恼的怼回来“你个A－－！”气的我捶胸，她也锤，结果我是梆梆梆她是biabiabia",
+                "preview_text": "",
+                "created_time": 1539580443,
+                "thanks_count": 177,
+                "updated_time": 1541980176,
+                "is_copyable": true,
+                "preview_type": "default",
+                "content": "<p>我们宿舍巨乳小姐姐是很害羞的那种妹子，一直羡慕我胸平穿衣服好看，而我由衷的羡慕她胸大。</p><p>有一天日常互怼，我说“二哥你个F！”，她很羞恼的怼回来“你个A－－！”气的我捶胸，她也锤，结果我是梆梆梆她是biabiabia</p><figure><img src=\"https://pic4.zhimg.com/v2-51890e813b87eaec3e050f49c541096d_b.jpg\" data-rawwidth=\"120\" data-rawheight=\"120\" data-size=\"normal\" class=\"content_image\" width=\"120\"></figure><p></p>",
+                "type": "answer",
+                "mark_infos": [],
+                "thumbnail": "",
+                "author": {
+                    "is_org": false,
+                    "avatar_url": "https://pic2.zhimg.com/50/v2-54c75ca936c17d72e7e785cfe537a5b4_m.jpg",
+                    "followers_count": 0,
+                    "name": "抖抖",
+                    "user_type": "people",
+                    "url_token": "tian-xun-xun-45",
+                    "type": "people",
+                    "headline": "喜欢可爱的小哥哥小姐姐",
+                    "badge": [],
+                    "url": "https://api.zhihu.com/people/b4e143e13be0963a05b73a9166260709",
+                    "is_following": false,
+                    "id": "b4e143e13be0963a05b73a9166260709",
+                    "gender": 0,
+                    "is_followed": false
+                },
+                "url": "https://api.zhihu.com/answers/511060256",
+                "relationship": {
+                    "upvoted_followee_ids": [],
+                    "voting": 0,
+                    "is_thanked": false,
+                    "is_nothelp": false
+                },
+                "id": 511060256,
+                "excerpt": "我们宿舍巨乳小姐姐是很害羞的那种妹子，一直羡慕我胸平穿衣服好看，而我由衷的羡慕她胸大。有一天日常互怼，我说“二哥你个F！”，她很羞恼的怼回来“你个A－－！”气的我捶胸，她也锤，结果我是梆梆梆她是biabiabia",
+                "comment_count": 260,
+                "voteup_count": 2893,
+                "reshipment_settings": "allowed"
+            },
+            "uninterest_reasons": [
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19557084",
+                    "reason_id": 3,
+                    "reason_text": "生活经历"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19566933",
+                    "reason_id": 3,
+                    "reason_text": "社会"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19587052",
+                    "reason_id": 3,
+                    "reason_text": "经历"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19563616",
+                    "reason_id": 3,
+                    "reason_text": "笑话"
+                },
+                {
+                    "object_type": "people",
+                    "reason_type": "creator",
+                    "object_token": "b4e143e13be0963a05b73a9166260709",
+                    "reason_id": 2,
+                    "reason_text": "抖抖创作的内容"
+                }
+            ],
+            "offset": 74,
+            "created_time": 1543571982,
+            "action_text_tpl": "热门内容, 来自: {}",
+            "updated_time": 1543571982,
+            "show_actor_time": false,
+            "action_text": "故事",
+            "type": "feed",
+            "actors": [
+                {
+                    "name": "故事",
+                    "avatar_url": "https://pic2.zhimg.com/50/9ee99716e_s.jpg",
+                    "url": "https://api.zhihu.com/topics/19554143",
+                    "meta": {
+                        "category": "n_wiki",
+                        "type": "metapedia",
+                        "id": 1023617345444409344
+                    },
+                    "type": "topic",
+                    "introduction": "",
+                    "id": "19554143",
+                    "excerpt": ""
+                }
+            ],
+            "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+            "id": "74_1543571982.208",
+            "action_card": false,
+            "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 511060256}",
+            "attached_info": "CoIBCPnauPy5sO2b/AEQBBoJMTIyOTkwMzQwIJvEkN4FKM0WMIQCQEpKDAoDVEJMEgEwGAAgAFIedGFnX2Jhc2VkX2xvbmdfdGVybV9hZGRfYW5zd2VyWggxODM4MjYwMXIJNTExMDYwMjU2eBGKAQg2NTM4OTg2MaoBCXJlY29tbWVuZA=="
+        },
+        {
+            "target": {
+                "excerpt_new": "第一条：不要抱着结婚的目的去谈恋爱！ 当一个人抱着结婚的目的去谈恋爱的时候，功利心会很重，时常憧憬和幻想，如，某天我们真的在一起了，跟她一起出去逛街，那是多有面子的事情呀，我的那些朋友该是多羡慕我呀；某天我们真的同居了，那我们是那种姿势好一点…",
+                "preview_text": "",
+                "excerpt_title": "",
+                "preview_type": "default",
+                "column": {
+                    "title": "阡陌小野",
+                    "image_url": "https://pic2.zhimg.com/50/v2-8448c9f3897455f5b025fe7ec4be712b_m.jpg",
+                    "type": "column",
+                    "url": "https://api.zhihu.com/columns/qianmo520",
+                    "author": {
+                        "is_org": false,
+                        "avatar_url": "https://pic2.zhimg.com/50/v2-8448c9f3897455f5b025fe7ec4be712b_m.jpg",
+                        "followers_count": 0,
+                        "name": "阡陌小野",
+                        "user_type": "people",
+                        "url_token": "qianmo520",
+                        "type": "people",
+                        "headline": "约会专家  公众个人号 ：Lovemap128",
+                        "badge": [],
+                        "url": "https://api.zhihu.com/people/ddcfd4eba4ca9698765e6f58a82bf49f",
+                        "is_following": false,
+                        "id": "ddcfd4eba4ca9698765e6f58a82bf49f",
+                        "gender": 1,
+                        "is_followed": false
+                    },
+                    "id": "qianmo520",
+                    "updated": 1458209676,
+                    "comment_permission": "all"
+                },
+                "created": 1542177960,
+                "linkbox": {
+                    "title": "",
+                    "url": "",
+                    "category": "",
+                    "pic": ""
+                },
+                "title": "追女生之前，这几条道理你们必须得懂！",
+                "content": "<p><b>第一条：不要抱着结婚的目的去谈恋爱！</b><br>当一个人抱着结婚的目的去谈恋爱的时候，功利心会很重，时常憧憬和幻想，如，某天我们真的在一起了，跟她一起出去逛街，那是多有面子的事情呀，我的那些朋友该是多羡慕我呀；某天我们真的同居了，那我们是那种姿势好一点呢；某天，我们真结婚了，那我们要几个小孩比较好呢？<br>所有的所有这些，你想得越多，你感情投入得越多，陷得也就越深，你就越不可自拔，爱得也就越深，得失心也就越重。你会变得一惊一怍，由此很容易乱了阵角：某天女生只是很忙，你就以为人女生不喜欢你了，跟别人在一起了，上床了。由此，你变得很作，一点都不淡定，这是非常不可爱的，非常不讨女生喜欢的，女人要的是有领导气质的男人，一个内心强大的男人。<br><br>所以，不要轻易地爱上一个人，<b>一旦先爱上一个人，你就先输了一半。</b>至于毛爷爷说，不以结婚为目的的谈恋爱都是耍流氓。不要误会了这句话的真实含义：毛爷爷的意思是恋爱，要真诚！意思是，你喜欢她，就跟她在一起，若是两个相处的融洽，那自然能走到最后，不强求！</p><p><br><br><br><b>第二条：年轻时的恋爱都是用来练手的，不管你承不承认，事实就是如此；（虽然我也很想从一而终）</b><br>在我从事情感咨询那么多年以来，我发现每个人几乎会有几场恋爱经历。然而很多人对待感情都太认真，总是抱着一种，“从一而终”的心态去谈恋爱，给自己压力的同时，也给对方太多的压力，可感情是门艺术，是需要经验和知识的，很多时候，不是你很爱她，你就能执子之手，幸福终老。也就是说，我们的人生是张白纸，在什么都不懂的时候，犯错误乃至失败是不可避免的……有些感情注定不能走到最后，有些人，我们注定只能看着她走向别人的怀抱……不是说感情不能认真对待，而是，一段感情走到尽头时，我们可以伤感，但不要太执著。<br><br>有一天，你会懂的：要走的人，你留不住，你能给的，只有自由！</p><p><br><br><br><b>第三条：高中没谈过恋爱，那大学也有80——90%的几率是是单着过的！</b><br>爱情是艺术，需要灵感，更需要修炼……一步一个脚印，一段一段情感地去爱，也许会受伤，可那是人生的一个过程，痛苦，可却值得！恋爱要趁早，若非如此，将来的某天，你想早恋的时候，也许你已经失去了早恋的资格，爱情承载了人生的大片美好……在青春时期，有过一段美好的恋爱，那青春才是无憾的……<br><br>高中没谈过恋爱，那十有八九，大学也是单着过的。恋爱，就是练级，需要经验和积累。恋爱，也要从娃娃抓起，那些听父母的话，千万别早恋的人的人生和青春，是干涸的！经验不能一步到位，碍于经验的缺失，他们往往到了应该恋爱的年纪，却只能有荷尔蒙的冲动……</p><p><br></p><p><br><br><b>第四条：不要幻想，不要幻想，不想幻想！</b><br>对待感情，很多人都会说，要顺其自然，要不强求。可没人告诉你：如何才能做到不强求，如何才能做到顺其自然。<br>在感情之初，如果对方没有很明确地告诉自己：做我男友/女友吧，那无论如何都不能将对方当作自己的另一半来对待。做到顺其自然，克制欲望的关键在于，停止不着边际地幻想：某天我们真的在一起了，跟她一起出去逛街，那是多有面子的事情呀，我的那些朋友该是多羡慕我呀；某天我们真的同居了，那我们是那种姿势好一点呢；某天，我们真结婚了，那我们要几个小孩比较好呢……所有的所有这些，你想得越多，你感情投入得越多，陷得也就越深，你就越不可自拔，爱得也就越深，得失心也就越重。你会变得一惊一怍，由此很容易乱了阵角：某天女生只是很忙，你就以为人女生不喜欢你了，跟别人在一起了，上床了。由此，你变得很作，一点都不淡定，这是非常不可爱的，非常不讨女生喜欢的，女人要的是有领导气质的男人，一个内心强大的男人。<br>克制欲望的关键在于，克制自己幻想的意念和憧憬！</p><p><br></p><p><br><b>第五条：恋人之间是有距离的，是有隐私的！</b><br>我在很在乎你的过去，但对于你的过往，我一点也不想知道！关于你交过多少任男友，又有过怎样不堪的过往，怎样的隐私，我很在意，但不管怎么说，我一点也不想知道！这属于你与我间的距离，须得学会尊重这份距离，学会维护你在我心中美好的形象，这就是对你与我之间感情的尊重！那些认为情侣间不应该有任何私密的人，往往不知道婚姻是怎么回事，爱情，又是怎么一回事！不要做暴露狂，甚至对于你最亲密的人，否则有一天，莫名其妙的感情就已经结束了！<br></p><p><br><br><b>第六条：喜欢一个女生就去追求，别太在呼什么掉价或者不掉价</b><br>都说，女孩是吸引过来的，而不是追求过来的。<br>是的，这句话很对，可是你也要知道，吸引是要靠交集的呀。现实情况是当我们一毕后，我们身边很少可以令我们倾慕的异性，想一下吧，你上班的地方有几个人，算他20个。减去大半的上了年纪的大叔、大婶，再减去一半的同性，余下三两个中，也许很可能是看了会折寿的，试问，从身边的资源着手，你怎么恋爱呢？<br><br>没有交集就吸引不了？吸引不了你就不恋爱啦？<br>谁说主动追求就建立不了吸引力的？之所以你的主动追求会掉价，那只有两种可能性一、你的主动追求变成了骚扰，缺失了尊重；2、你的追求方式太过于猛烈，在女生对你完全无感的前提下，你节奏太快，过早表白了，过早亲吻人家了……3、你不够优秀；<br><br>有喜欢人就去追吧，听着，<b>优秀的人都被别人给追走了，这是血与泪的教训呀。</b><br><br><br><b>第七条：除了你自己，没人能为你的负面情绪买单！</b><br>大家的都是成年人，须得独立，这里的独立指的更多的是精神独立。须得学会坚强，学会克服生命中的苦难，学会整合自己的负面情绪。感情的事，没有谁离不开谁，我爱你，也仅限于当时我爱你……再亲密的恋人，也没有承担你负面情绪，为你负面情绪买单的义务：只有独立的人，才有资格才有能力去经营一段感情，才能学会尊重彼此，保持距离。<br><br></p><p><br><b>第八条：有些事情过了就过了，没必要钻牛角尖，给自己和他人找不痛快。</b><br>这里的有些事主要指的是一些已经过去了的事，如一些彼此的伤痛，不愉快的回忆。不要总让对方给你一个答案，纵使给了你答案，很多人觉得那不是其想要的真正的答案，所以反复追问，其实啊。很多时候，让两个人感情裂的原因，不是因为背后事件，而是过份纠结于要一个合理的解析，从而不断地追问，追问，追问…… 使得双方情感被不断地消磨，消磨……<br>因为一些事件，如出轨，又或者所谓的“你不爱我了”……本来两个人裂缝就已经存在了，反复提起，那是一种外界强加给对方的强迫症，造成精神折磨的同时，会不断拉大双方间的裂缝！<br><br><br><b>第九条：男人有很多压力，他想要静一静的时候，请给他空间！</b><br>男人的压力，你是不明白的。当下人想要静一静的时候，心情烦躁的时候……整个世界都是不愿意去理会的，这里的整个世界，包括了最亲密的恋人！须得学会保持距离，须得学会尊重彼此的私人空间……他之所以长时间不理你，并不是因为你们感情出了问题，而是因为男人活在这个世界上，有太多的压力，大到让它喘不过气来的压力。</p><p><br></p><p><br><br><br><b>第十条：一个女孩今天不答应你，明天不答应你，不代表明年她不答应你，十年后她不答应你！</b><br>在一段关系里，女孩要的是安全感。这份安全感，是你给她的，与其是爱，不如说是朋友之情，学会克制自己的欲望，不要给她太多的压力……做她身边的守护天使，让她知道你喜欢她，对她不离不弃，在她心里你会有一个特殊的位置。女孩都是容易被感动的动物，今天她不答应你，明天不答应你，不代表明年她不答应你，十年她不答应你……<br><br>你得学会有耐心，有爱情地陪伴和等待，日久生情就是这个意思。见过很多高中表白被拒，但过了几年，大学乃至大学毕业后却又在一起的情侣，说不定以后其中有一对是你们！所以请记住，不要因为一次表白被拒就把别人给删了，老死不相往来。<br><br>注意：关于这一条关键是克制自己的欲望，将你对他/她的欲望，限制在朋友之情，又或者倾慕之情……假如理解为男女之爱，那肯定是坚持不下去的，因为那很惨烈，很悲壮……假如是朋友之情，那就没有坚持的意思了，因为你们是朋友，不管最后对方选不选择你，你都能很真心地祝福对方……（千万别理解为备胎，那是对于自己感情的不尊重，又或者对他人的尊重）<br><br><b>这里的“等待”，不是等待，不要理解成备胎，你完全可以跟其做着朋友的同时，试着去跟别的优秀的人相处……当然，也不要理解为不忠，因为你还没有谈”忠“的资格！</b><br><br>这一点是最难理解的。能不能参透，看你的悟性喽！</p><p><br><br><br><b>第十一条：当感情进入平淡期的时候，爱或者不爱，不再那么重要！</b><br>当感情进入平淡期后，爱我，又或者不爱我，根本就不重要了。两个人之所以还依然在一起，不是因为新鲜，不是因为有趣，而是一种习惯，一种羁绊，又或者陪伴……愚蠢的人才会将爱经常挂在嘴边，愚蠢的人才不断地考验对方对自己爱：本来说鱼缸好好的，不要拿锤子去敲打它，去考验它的硬度！</p><p><br><br><b>第十二条：如果一个人要离开了，不要挽留；</b><br>属于你的，终究是属于你，离开了还是会回来。要走的，你也留不住。挽留是没有用的，你所能给的，只有自由……<br><br><br>end.(全文完）<br>如果你学到了什么，引起了你的思考，<br>留下你的小星星哦，爱你哟！<br>==================<br>本篇文章摘录于阡陌老师所著书籍《恋爱攻心术》<br>欲获得本书的朋友，可加 小雨 微信：<b>Lovemap128</b> 《恋爱攻心术》是阡陌老师多年心血的总结，现 <b>免费赠送</b> 给大家，先到先得，想要的朋友赶紧哟，每天仅限赠送十本哟！<br>阡陌：<a href=\"https://zhuanlan.zhihu.com/p/36500939\" class=\"internal\">如何树立正确恋爱观？</a> <b>（力荐！加荐！力荐！力荐！）</b><br>阡陌：<a href=\"https://zhuanlan.zhihu.com/p/37433260\" class=\"internal\">别在“追”女生啦，你落伍了，你落伍了</a>；<br>阡陌：<a href=\"https://zhuanlan.zhihu.com/p/37397515\" class=\"internal\">追求爱情，没有这种能力，你就“光棍”一辈子吧！</a><br>阡陌：关注我哟，我会教你脱单哟……</p>",
+                "image_url": "https://pic4.zhimg.com/50/v2-c5a64d7d4eb3699b8b0f2e0150a49d2b_hd.jpg",
+                "type": "article",
+                "comment_permission": "all",
+                "upvoted_followees": [],
+                "updated": 1542177960,
+                "author": {
+                    "is_org": false,
+                    "avatar_url": "https://pic2.zhimg.com/50/v2-8448c9f3897455f5b025fe7ec4be712b_m.jpg",
+                    "followers_count": 0,
+                    "name": "阡陌小野",
+                    "user_type": "people",
+                    "url_token": "qianmo520",
+                    "type": "people",
+                    "headline": "约会专家  公众个人号 ：Lovemap128",
+                    "badge": [],
+                    "url": "https://api.zhihu.com/people/ddcfd4eba4ca9698765e6f58a82bf49f",
+                    "is_following": false,
+                    "id": "ddcfd4eba4ca9698765e6f58a82bf49f",
+                    "gender": 1,
+                    "is_followed": false
+                },
+                "url": "https://api.zhihu.com/articles/49776915",
+                "id": 49776915,
+                "excerpt": "第一条：不要抱着结婚的目的去谈恋爱！ 当一个人抱着结婚的目的去谈恋爱的时候，功利心会很重，时常憧憬和幻想，如，某天我们真的在一起了，跟她一起出去逛街，那是多有面子的事情呀，我的那些朋友该是多羡慕我呀；某天我们真的同居了，那我们是那种姿势好一点呢；某天，我们真结婚了，那我们要几个小孩比较好呢？ 所有的所有这些，你想得越多，你感情投入得越多，陷得也就越深，你就越不可自拔，爱得也就越深，得失心也就越重。你会…",
+                "comment_count": 38,
+                "voteup_count": 273,
+                "voting": 0
+            },
+            "uninterest_reasons": [
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "20042659",
+                    "reason_id": 3,
+                    "reason_text": "撩妹"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19590285",
+                    "reason_id": 3,
+                    "reason_text": "追求女孩"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19628384",
+                    "reason_id": 3,
+                    "reason_text": "恋爱心理"
+                },
+                {
+                    "object_type": "people",
+                    "reason_type": "creator",
+                    "object_token": "ddcfd4eba4ca9698765e6f58a82bf49f",
+                    "reason_id": 2,
+                    "reason_text": "阡陌小野创作的内容"
+                }
+            ],
+            "offset": 75,
+            "created_time": 1543571982,
+            "action_text_tpl": "热门内容, 来自: {}",
+            "updated_time": 1543571982,
+            "show_actor_time": false,
+            "action_text": "恋爱心理",
+            "type": "feed",
+            "actors": [
+                {
+                    "name": "恋爱心理",
+                    "avatar_url": "https://pic1.zhimg.com/50/13b20ad1ea4c065717c3db65d227f0d4_s.jpg",
+                    "url": "https://api.zhihu.com/topics/19628384",
+                    "type": "topic",
+                    "introduction": "",
+                    "id": "19628384",
+                    "excerpt": ""
+                }
+            ],
+            "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+            "id": "75_1543571982.433",
+            "action_card": false,
+            "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 49776915}",
+            "attached_info": "CqoBCPnauPy5sO2b/AEQBxoIMTAxMjMxNTEgqImv3wUokQIwJkBLSg0KBElDQU4SATAYACAAUhppdGVtX2NmX2Fuc3dlcl9hZGRfYXJ0aWNsZXIINDk3NzY5MTV4CYIBQGh0dHBzOi8vcGljNC56aGltZy5jb20vdjItYzVhNjRkN2Q0ZWIzNjk5YjhiMGYyZTAxNTBhNDlkMmJfci5qcGeqAQlyZWNvbW1lbmQ="
+        },
+        {
+            "target": {
+                "excerpt_new": "李根 发自 凹非寺 量子位 报道 | 公众号 QbitAI Google已经到了最危险的时刻。 “但可能还有拯救的希望。” 这就是Jack Poulson选择离职的原因，既想用这样的方式唤起更大的内外关注，也希望微薄之力劝谏Google坚持自己德配谷人希的价值观。 Jack Poulson不是啥…",
+                "preview_text": "",
+                "excerpt_title": "",
+                "preview_type": "default",
+                "column": {
+                    "title": "量子位",
+                    "image_url": "https://pic3.zhimg.com/50/v2-ca6e7ffc10a0d10edbae635cee82d007_m.jpg",
+                    "type": "column",
+                    "url": "https://api.zhihu.com/columns/liang-zi-wei-48",
+                    "author": {
+                        "is_org": true,
+                        "avatar_url": "https://pic3.zhimg.com/50/v2-ca6e7ffc10a0d10edbae635cee82d007_m.jpg",
+                        "followers_count": 0,
+                        "name": "量子位",
+                        "user_type": "organization",
+                        "url_token": "liang-zi-wei-48",
+                        "type": "people",
+                        "headline": "有趣的前沿科技→_→ 公众号：QbitAI",
+                        "badge": [
+                            {
+                                "description": "已认证的官方帐号",
+                                "type": "identity"
+                            }
+                        ],
+                        "url": "https://api.zhihu.com/people/36f69162230003d316d0b8a6d8da20ba",
+                        "is_following": false,
+                        "id": "36f69162230003d316d0b8a6d8da20ba",
+                        "gender": 0,
+                        "is_followed": false
+                    },
+                    "id": "liang-zi-wei-48",
+                    "updated": 1458209676,
+                    "comment_permission": "all"
+                },
+                "created": 1536987625,
+                "linkbox": {
+                    "title": "",
+                    "url": "",
+                    "category": "",
+                    "pic": ""
+                },
+                "title": "保卫Google！刻不容缓",
+                "content": "<blockquote>李根 发自 凹非寺 <br>量子位 报道 | 公众号 QbitAI</blockquote><p>Google已经到了最危险的时刻。<br></p><p>“但可能还有拯救的希望。”</p><p>这就是Jack Poulson选择离职的原因，既想用这样的方式唤起更大的内外关注，也希望微薄之力劝谏Google坚持自己德配<b>谷人希</b>的价值观。</p><p>Jack Poulson不是啥知名人士，也算不上老Googler，但如果有一帮Google价值观铁杆拥趸，算他一个。</p><figure><img src=\"https://pic3.zhimg.com/v2-bef7c5b80c379ede1e610937ab4a24ca_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"540\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-bef7c5b80c379ede1e610937ab4a24ca_r.jpg\"></figure><p>Jack Poulson于2016年5月加入Google，先在加拿大多伦多，后来来到了Google总部山景城。他的职位是资深研究科学家，曾在Google机器情报部门工作，为的是帮助提升搜索准确性。<br></p><p>但今年8月最后一天，Jack Poulson以辞职作为抗议，因为无法接受Google真的要为中国，推出定制版搜索引擎。</p><p>呸！Google曾写下过道德底线。</p><p>Jack Poulson也不是一个人在辞职。据The Intercept爆料还有4名员工也加入“死谏”行列，而Bazzfeed则更新说已有7人。</p><p>总之，一份实名抗议并以辞职反逼公司的签名文档，在Google内部流传。</p><p>保卫Google，刻不容缓。</p><h2><b>内部抗议不消停</b></h2><p>事情可以从8月初说起。</p><p>Google一项名为<b>Dragonfly</b>秘密计划被外媒曝光，旋即引发轩然大波，小小“蜻蜓”马上掀起太平洋两岸热议。</p><figure><img src=\"https://pic1.zhimg.com/v2-b3bedb975a8546b9bc9b6f17dec5360c_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"610\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-b3bedb975a8546b9bc9b6f17dec5360c_r.jpg\"></figure><p>无他，只因为这是一项专门针对中国的计划。<br></p><p>在这个计划里，Google正在为中国专门打造一版定制化搜索，最早2018年年末、最迟2019年7月，就正式对外宣布。</p><p>然而提早的曝光，引来轩然大波。</p><p>太平洋西岸，不少国人已经一副翘首以盼，列队期待，diss国内搜索引擎，认为人类希望真的——I’m back.</p><p>而太平洋东岸，Google的8万8千名员工不敢相信竟有这样的项目，更后来还被证实，Google有人在刻意隐瞒这个项目，全公司上下就只有几百人零星知晓，更多人则在不知情情况下为这个项目“工作”。</p><p>比如开头讲到的Jack Poulson，就是不知情但还为此工作的员工之一。由于他的工作是改善搜索系统，尤其是在一个名为“国际查询分析”的岗位，所以他的工作极有可能被整合到定制版的Google搜索引擎中。</p><p>这还得了？这可是在以透明、自治著称的Google啊！</p><figure><img src=\"https://pic1.zhimg.com/v2-02da8ff7d7b40675b9bb383b5ee4b0f4_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"360\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic1.zhimg.com/v2-02da8ff7d7b40675b9bb383b5ee4b0f4_r.jpg\"></figure><p><br></p><p>但更难Jack Poulson接受的是，越了解这个项目，越觉得Google在背离初心。<br></p><p>他说这是一款基于安卓的移动版搜索程序，专国定制，而且特色十足，什么词能搜什么词不能搜，Google为此搞了一个“黑名单”。</p><p>“这不是Google写下过的价值观！也不符合Google已经颁布的AI原则！”</p><p>所以Jack Poulson认为，如果Google的立场正在发生变化，他无法再为公司工作，无论是员工身份还是股东身份。</p><p>显而易见的是，“蜻蜓”计划之后的高层态度，没有得到谅解，无法平息内部抗议。</p><p>在“蜻蜓”计划曝光后，Google内部发起了一项1700人签名的“黄色代码”请愿书，其中要求在公司内部增加员工监督和对特殊项目的第三方道德审查。</p><p>但万万没想到。</p><p>Google高层试图做的，竟然是通过限制员工访问“蜻蜓”计划的相关文档，来抑制内部抗议。</p><p>后来，在沉默两周后，Google高层以创始人谢尔盖·布林和Google 现任CEO皮猜为代表，决定在内部全员大会上答疑解惑。皮猜说蜻蜓项目只是一个尝试，并没有任何短期内推出中国定制版搜索的计划。</p><figure><img src=\"https://pic3.zhimg.com/v2-545daa0ace05956cf07e5418d016674a_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1024\" data-rawheight=\"575\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://pic3.zhimg.com/v2-545daa0ace05956cf07e5418d016674a_r.jpg\"></figure><p><br></p><p>然而答疑正在进行时，Google高管们却发现，竟然有员工在实时对外直播这次内部大会。<br></p><p>外媒BI报道说，Google创始人、现任Alphabet公司总裁的布林，称因为泄密，他将不再在这会上更多谈论“蜻蜓”和太平洋西岸的事情。</p><p>而内部对外实时泄密的行为，也引发现场员工不满。有员工在提问时飚了“F*ck you”，要求泄密者离开，这得到了一些掌声。</p><p>然而问题却悬而未决，甚至引来外部压力。</p><p>就在上周，美国16名议员就联名致信Google，要求CEO皮猜公开“蜻蜓”计划的信息，并说明是否会有可能威胁到美国人的正常权利。</p><p>这些资本主义的公务员们还满世界转载，又闹得满城风雨。</p><figure><img src=\"https://pic2.zhimg.com/v2-48aa443f389b38d6e202ea15292aa415_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"768\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-48aa443f389b38d6e202ea15292aa415_r.jpg\"></figure><p><br></p><h2><b>AI军事项目旧事重提</b><br></h2><p>或许你可能会问，为啥一个毛都还没有的计划，闹得如此之大？</p><p>Google有前科。</p><p>就在今年，Google管理层就秘密在推进跟美国军方的一项合作，目的是把AI技术用于无人机战争领域，代号<b>Project Maven</b>。</p><figure><img src=\"https://pic3.zhimg.com/v2-ce1b9091bbff50c45de943aa99691cae_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"450\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic3.zhimg.com/v2-ce1b9091bbff50c45de943aa99691cae_r.jpg\"></figure><p><br></p><p>虽然这是一个可能价值数十亿美元的大订单，但把AI用到军事武器等领域，始终是道德和价值观自诩的Google所反对的。<br></p><p>如今竟要为了钱作恶了吗？</p><figure><img src=\"https://pic1.zhimg.com/v2-88e7f902cf096bcfd2112b3da939d108_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"192\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-88e7f902cf096bcfd2112b3da939d108_r.jpg\"></figure><p><br></p><p>Google高层呢，从一开始就知道会引发内部震动，所以一直秘不发声，高层内部也激烈讨论。包括后来被媒体引文曝光的李飞飞邮件，其中就说此事不能让外界知晓，否则肯定会大大损害Google声誉。<br></p><p>然而纸里包不住火，终究还是曝了个精光。</p><p>于是从曝光的3月开始，就有内部3000多名员工联名上书，抵制与五角大楼的合作。</p><p>4月，事件进一步发酵，包括Bengio等上百名学者、科学家二次上书，数十名员工因此离职，要求Google退出Maven项目，并且起草政策声明Google永远不会开发战争技术。</p><p>事情越闹越大，直至6月8日，Google对外发出<b>AI七原则</b>，承诺绝不会将AI技术用于武器制造中，并且不会继续Maven项目的合同。</p><p>风波于是才告一段落。</p><figure><img src=\"https://pic3.zhimg.com/v2-2e4ed4e0a6a5929d778d2ce86998a80a_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"796\" data-rawheight=\"417\" class=\"origin_image zh-lightbox-thumb\" width=\"796\" data-original=\"https://pic3.zhimg.com/v2-2e4ed4e0a6a5929d778d2ce86998a80a_r.jpg\"></figure><p><br></p><h2><b>请来军方座上宾接替李飞飞</b></h2><p>但显然，无论风波如何终结，影响不会就此戛然而止。</p><p>Maven项目降低了Google管理层的信任度，很多员工开始有些动摇，是世道变了，还是Google变了？</p><p>于是“蜻蜓”计划曝光后，同样是一波出于不信任的上书，同样是员工愤怒向媒体爆料，同样是有人选择以离职劝谏Google回归正道。</p><p>包括一些可能再平常不过的人事更替，也能被解读出其他意味。</p><p>比如最近因学术假期期满，卸任Google云首席AI科学家的李飞飞，就被认为是Maven项目的相关影响。</p><p>又比如接替李飞飞的计算机领域大牛安德鲁·摩尔（Andrew Moore），就被按照“军方座上宾”的身份，认为是Google道德分崩的表现。</p><figure><img src=\"https://pic4.zhimg.com/v2-e674b8214ee83606361bf44cfff84b67_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"750\" data-rawheight=\"361\" class=\"origin_image zh-lightbox-thumb\" width=\"750\" data-original=\"https://pic4.zhimg.com/v2-e674b8214ee83606361bf44cfff84b67_r.jpg\"></figure><p><br></p><p>因为安德鲁除了是前CMU计算机学院院长，还有特殊身份：新美国安全中心（CNAS）人工智能和国家安全工作组的联合主席。<br></p><p>被曝与美国国防部门关系密切，还曾宣称可以用无人机“监控几乎整个世界”。</p><p>所以安德鲁任命一公开，就有离职Google员工表示呵呵，认为是在打脸之前的AI原则。</p><p>但也有人反对，认为现在的Google，拿着道德大棒，深怀白左之心，有点太过分了。</p><p>其实也不难看出来，当今形势里，Google也正在经历被撕裂……</p><figure><img src=\"https://pic2.zhimg.com/v2-315cdf220ade635679d0d39325b35bd5_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"962\" data-rawheight=\"835\" class=\"origin_image zh-lightbox-thumb\" width=\"962\" data-original=\"https://pic2.zhimg.com/v2-315cdf220ade635679d0d39325b35bd5_r.jpg\"></figure><p><br></p><h2><b>拉里·佩奇今何在？</b></h2><p>于是此情此景，更多Google的象征就被惦记。</p><p>拉里·佩奇就是其中之一。</p><p>彭博最近长文“寻找”拉里·佩奇，从这位Google创始人、Alphabet CEO缺席互联网隐私的听证会说起，谈到了这位本应站出来领导公司前进的创始人，大部分时间里，竟在加勒比海上小岛过起“退休”生活。</p><figure><img src=\"https://pic4.zhimg.com/v2-26afcd1f79ca208af64f2a9f17268c1b_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"410\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic4.zhimg.com/v2-26afcd1f79ca208af64f2a9f17268c1b_r.jpg\"></figure><p><br></p><p>彭博报道中，在让皮猜接手Google CEO，拉里·佩奇自己上任母公司Alphabet CEO后，佩奇就玩起了消失。<br></p><p>他放弃了大部分管理职责，但又保留了对公司的控制权，并能够专注在那些他认为“疯狂”和“未来”的X项目中，比如自动驾驶飞行器、各种机器人等。</p><figure><img src=\"https://pic3.zhimg.com/v2-d1d225affddf1282eb7c44aa995fb3c2_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"360\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic3.zhimg.com/v2-d1d225affddf1282eb7c44aa995fb3c2_r.jpg\"></figure><p><br></p><p>现在还能定期见佩奇的，恐怕也就Google Fiber的负责人了。这是一个开发高速互联网WiFi的项目，佩奇一直对此深感兴趣，最近几个月，Google Fiber的负责人可以每周都跟他汇报交流。<br></p><p>但其他人要见佩奇，已经十足困难了。</p><p>甚至听起来很难相信这是Google。</p><p>一位曾在Google X工作的经理说，去佩奇办公室就像是访问王室，繁文缛节，满是助手，要精心准备。</p><p>哪还有一点“神奇小子”当年的锐气？</p><figure><img src=\"https://pic3.zhimg.com/v2-281dbb8e8cfefb5f52bb53f18ef48692_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"400\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic3.zhimg.com/v2-281dbb8e8cfefb5f52bb53f18ef48692_r.jpg\"></figure><p><br></p><p>彭博也解释，佩奇半退休，可能也跟身体状况有关，45岁的拉里·佩奇因为曾经的高强度工作，已满头白发，而且因为声带麻痹，公开演讲越来越困难——上一次还是2014年的TED分享。<br></p><p>但即便如此，佩奇已经很少出现在山景城总部的每周全员“TGIF”会议了，员工见他、向他提问也变得困难。</p><figure><img src=\"https://pic3.zhimg.com/v2-4c64683d36cef759941c991ea393a55a_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"618\" data-rawheight=\"408\" class=\"origin_image zh-lightbox-thumb\" width=\"618\" data-original=\"https://pic3.zhimg.com/v2-4c64683d36cef759941c991ea393a55a_r.jpg\"></figure><p><br></p><p>佩奇过得更像一个未来主义者，他更关注令自己着迷的未来感的项目。<br></p><p>而对于Google目前面临的内外挑战，他不出现，不发声，不作为。</p><p>对于拿Google当“人类希望”的支持者来说，Google，Now，已经到最危险的时候。</p><p>是这些人太矫情了吗？</p><figure><img src=\"https://pic2.zhimg.com/v2-85cc1b4e81590bad027f02afd5062ff9_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"400\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic2.zhimg.com/v2-85cc1b4e81590bad027f02afd5062ff9_r.jpg\"></figure><p>— <b>完</b> —</p><p>欢迎大家关注我们的专栏：<a href=\"https://zhuanlan.zhihu.com/qbitai\" class=\"internal\">量子位 - 知乎专栏</a></p><p>诚挚招聘</p><p>量子位正在招募编辑/记者，工作地点在北京中关村。期待有才气、有热情的同学加入我们！相关细节，请在量子位公众号(QbitAI)对话界面，回复“招聘”两个字。</p><p><a href=\"https://zhuanlan.zhihu.com/qbitai\" class=\"internal\">量子位 QbitAI</a>· 头条号签约作者</p><p>վ'ᴗ' ի 追踪AI技术和产品新动态</p>",
+                "image_url": "https://pic1.zhimg.com/50/v2-578432f412c2d5f7bfcfcb34f3574945_hd.jpg",
+                "type": "article",
+                "comment_permission": "all",
+                "upvoted_followees": [],
+                "updated": 1537046426,
+                "author": {
+                    "is_org": true,
+                    "avatar_url": "https://pic3.zhimg.com/50/v2-ca6e7ffc10a0d10edbae635cee82d007_m.jpg",
+                    "followers_count": 0,
+                    "name": "量子位",
+                    "user_type": "organization",
+                    "url_token": "liang-zi-wei-48",
+                    "type": "people",
+                    "headline": "有趣的前沿科技→_→ 公众号：QbitAI",
+                    "badge": [
+                        {
+                            "description": "已认证的官方帐号",
+                            "type": "identity"
+                        }
+                    ],
+                    "url": "https://api.zhihu.com/people/36f69162230003d316d0b8a6d8da20ba",
+                    "is_following": false,
+                    "id": "36f69162230003d316d0b8a6d8da20ba",
+                    "gender": 0,
+                    "is_followed": false
+                },
+                "url": "https://api.zhihu.com/articles/44605507",
+                "id": 44605507,
+                "excerpt": "李根 发自 凹非寺 量子位 报道 | 公众号 QbitAI Google已经到了最危险的时刻。 “但可能还有拯救的希望。” 这就是Jack Poulson选择离职的原因，既想用这样的方式唤起更大的内外关注，也希望微薄之力劝谏Google坚持自己德配谷人希的价值观。 Jack Poulson不是啥知名人士，也算不上老Googler，但如果有一帮Google价值观铁杆拥趸，算他一个。 Jack Poulson于2016年5月加入Google，先在加拿大多伦多，后来来到了Google总部山景城。他的…",
+                "comment_count": 157,
+                "voteup_count": 435,
+                "voting": 0
+            },
+            "uninterest_reasons": [
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19551275",
+                    "reason_id": 3,
+                    "reason_text": "人工智能"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19554074",
+                    "reason_id": 3,
+                    "reason_text": "价值观"
+                },
+                {
+                    "object_type": "topic",
+                    "reason_type": "topic",
+                    "object_token": "19565870",
+                    "reason_id": 3,
+                    "reason_text": "谷歌 (Google)"
+                },
+                {
+                    "object_type": "people",
+                    "reason_type": "creator",
+                    "object_token": "36f69162230003d316d0b8a6d8da20ba",
+                    "reason_id": 2,
+                    "reason_text": "量子位创作的内容"
+                }
+            ],
+            "offset": 76,
+            "created_time": 1543571982,
+            "action_text_tpl": "热门内容, 来自: {}",
+            "updated_time": 1543571982,
+            "show_actor_time": false,
+            "action_text": "谷歌 (Google)",
+            "type": "feed",
+            "actors": [
+                {
+                    "name": "谷歌 (Google)",
+                    "avatar_url": "https://pic2.zhimg.com/50/v2-275d4f0e9bad3711cd6e6861df899712_s.jpg",
+                    "url": "https://api.zhihu.com/topics/19565870",
+                    "type": "topic",
+                    "introduction": "",
+                    "id": "19565870",
+                    "excerpt": ""
+                }
+            ],
+            "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+            "id": "76_1543571982.511",
+            "action_card": false,
+            "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 44605507}",
+            "attached_info": "CpwBCPnauPy5sO2b/AEQBxoHODk3NDMyMSDpo/LcBSizAzCdAUBMSgoKAUgSATAYACAAUg9ob3RfYWRkX2FydGljbGVyCDQ0NjA1NTA3eAGCAUBodHRwczovL3BpYzEuemhpbWcuY29tL3YyLTU3ODQzMmY0MTJjMmQ1ZjdiZmNmY2IzNGYzNTc0OTQ1X3IuanBnqgEJcmVjb21tZW5k"
+        }
+    ],
+    "fresh_text": "关注动态已更新"
+}

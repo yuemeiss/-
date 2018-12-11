@@ -10,7 +10,7 @@ from scrapy import Field
 
 class QiushiproField(Field):
     # 作者
-    clsid = Field()
+    clsid_id = Field()
     title = Field()
     # 段子内容
     content = Field()
@@ -27,7 +27,7 @@ class QiushiproField(Field):
 
     def insert_db_by_data(self, subdict):
 
-        sql, data = get_sql_parmase_by_dict(subdict, 'qiushi')
+        sql, data = get_sql_parmase_by_dict(subdict, 'spiderapp_qiushipro')
 
         return sql,data
 
@@ -75,7 +75,7 @@ class JuziconproField(Field):
 
     def insert_db_by_data(self, subdict):
 
-        sql, data = get_sql_parmase_by_dict(subdict, 'works')
+        sql, data = get_sql_parmase_by_dict(subdict, 'spiderapp_juziconpro')
 
         return sql,data
 class JuzitagsField(Field):
@@ -94,7 +94,7 @@ class JuzitagsField(Field):
     uuid = Field()
     def insert_db_by_data(self, subdict):
 
-        sql, data = get_sql_parmase_by_dict(subdict, 'tagtable')
+        sql, data = get_sql_parmase_by_dict(subdict, 'spiderapp_juzitagtable')
 
         return sql,data
 

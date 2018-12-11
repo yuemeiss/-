@@ -1,0 +1,89 @@
+{
+    "type": "answer",
+    "content": "<p>有一趟出差我不想去，跟领导说公司事多走不开。</p><p>领导说：“没事，你去吧，公司离了谁都转。”</p><p><br></p><p>我嫌工资少，找领导说有猎头要挖我，想走。</p><p>领导说：“别啊，你看看这几个客户的业务离得开你么。”</p>",
+    "voteup_count": 1926,
+    "mark_infos": [],
+    "excerpt_new": "有一趟出差我不想去，跟领导说公司事多走不开。 领导说：“没事，你去吧，公司离了谁都转。” 我嫌工资少，找领导说有猎头要挖我，想走。 领导说：“别啊，你看看这几个客户的业务离得开你么。”",
+    "preview_type": "expand",
+    "question": {
+        "type": "question",
+        "relationship": {
+            "is_author": false
+        },
+        "created": 1537931871,
+        "title": "你见过哪些因为缺了一个员工导致地球都不转的例子？",
+        "detail": "",
+        "follower_count": 8215,
+        "id": 296130369,
+        "comment_count": 12,
+        "is_following": false,
+        "author": {
+            "type": "people",
+            "followers_count": 0,
+            "is_following": false,
+            "headline": "异世界舅妈",
+            "user_type": "people",
+            "badge": [],
+            "id": "5b4c4c40369aa3294b09f8e4bd715f23",
+            "name": "孟德尔",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-661ed1a3817e212e80b8c23734937064_m.jpg",
+            "url": "https://api.zhihu.com/people/5b4c4c40369aa3294b09f8e4bd715f23",
+            "url_token": "meng-de-er",
+            "gender": 1,
+            "is_org": false,
+            "is_followed": false
+        },
+        "excerpt": "“缺了谁地球都转”快成中国管理者的信仰了。一个人离职导致公司垮掉的情况有很多，…",
+        "url": "https://api.zhihu.com/questions/296130369",
+        "bound_topic_ids": [
+            1307,
+            1657,
+            3842,
+            11772,
+            13306
+        ],
+        "answer_count": 599
+    },
+    "relationship": {
+        "is_nothelp": false,
+        "voting": 0,
+        "upvoted_followee_ids": [],
+        "is_thanked": false
+    },
+    "thumbnail": "",
+    "id": 513344870,
+    "is_copyable": false,
+    "created_time": 1539852282,
+    "comment_count": 59,
+    "preview_text": "有一趟出差我不想去，跟领导说公司事多走不开。\n领导说：“没事，你去吧，公司离了谁都转。”\n\n\n我嫌工资少，找领导说有猎头要挖我，想走。\n领导说：“别啊，你看看这几个客户的业务离得开你么。”",
+    "author": {
+        "type": "people",
+        "followers_count": 0,
+        "is_following": false,
+        "headline": "汽车评述、产品力分析、已脱单",
+        "user_type": "people",
+        "badge": [
+            {
+                "type": "best_answerer",
+                "topics": [],
+                "topic_names": [
+                    "汽车"
+                ],
+                "description": "优秀回答者"
+            }
+        ],
+        "id": "d6ba8121dde8f13065fe8db6209f0c0b",
+        "name": "凯凯",
+        "avatar_url": "https://pic4.zhimg.com/50/v2-bae1819494e8336aaf74c97b86e97027_m.jpg",
+        "url": "https://api.zhihu.com/people/d6ba8121dde8f13065fe8db6209f0c0b",
+        "url_token": "kai-zi-56",
+        "gender": 1,
+        "is_org": false,
+        "is_followed": false
+    },
+    "excerpt": "有一趟出差我不想去，跟领导说公司事多走不开。领导说：“没事，你去吧，公司离了谁都转。” 我嫌工资少，找领导说有猎头要挖我，想走。领导说：“别啊，你看看这几个客户的业务离得开你么。”",
+    "reshipment_settings": "disallowed",
+    "url": "https://api.zhihu.com/answers/513344870",
+    "thanks_count": 142,
+    "updated_time": 1539852282
+}

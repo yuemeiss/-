@@ -55,7 +55,7 @@ class JuziconSpider(CrawlSpider):
             works['intro'] = data[0]
             works['tags'] = data[1]
             print(works['tags'])
-            works['clsid'] = 1
+            works['clsid_id'] = 1
             works['content_list'] = str(self.flag)
             print('==================================',len(works['content_list']))
             self.flag = []

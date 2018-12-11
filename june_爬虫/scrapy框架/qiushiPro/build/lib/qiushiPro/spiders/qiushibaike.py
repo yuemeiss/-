@@ -55,7 +55,7 @@ class QiushibaikeSpider(CrawlSpider):
         # 作者
         joke['title'] = response.xpath('//div[contains(@class,"author")]//h2/text()').extract_first('未知')
         # print(title)
-        joke['clsid'] = 5
+        joke['clsid_id'] = 5
         # 段子内容
         joke['content'] = ','.join(response.xpath('//div[@class="content"]/text()').extract()).replace(' ','').replace('\n','')
         #图片

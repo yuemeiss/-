@@ -35,6 +35,7 @@ class ScenePoetryproSpider(CrawlSpider):
             work['clsid_id'] = 3
         else:
             work['clsid_id'] = 2
+        print('+'*50,work['clsid_id'])
         loads = []
         con_list = response.xpath('//section[@class="_3kJ_X8s2Fl1RMezfKtlens_0"]')
         for con in con_list:
@@ -55,34 +56,34 @@ class ScenePoetryproSpider(CrawlSpider):
         if page_url:
             yield response.follow(url=page_url, callback=self.parse_page)
 
-    # def parse_tags(self, response):
-    #     bb = response.url
-    #     self.page += 1
-    #     if 'posts' in bb:
-    #         data_list = json.loads(response.text)['data']['list']
-    #         for dat in data_list:
-    #             tagcls = JuzitagsField()
-    #             if bool(dat['tags']):
-    #                 tagcls['tags'] = ','.join(dat['tags'])
-    #             else:
-    #                 tagcls['tags'] = '其他'
-    #             # print(tagcls['tags'])
-    #             tagcls['clsid_id'] = 4
-    #             tagcls['con_time'] = dat['createdAt']
-    #             tagcls['content_list'] = str([dat['content'], dat['referWorksName'], dat['cntComment'], dat['cntLike']])
-    #             # print(tagcls['content_list'])
-    #             # 句子去重id
-    #             tagcls['uuid'] = dat['uuid']
-    #             if 'creator' in dat.keys():
-    #                 tagcls['img_url'] = dat['creator']['avatar']
-    #                 print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>', tagcls['img_url'])
-    #                 tagcls['title'] = dat['creator']['nickname']
-    #                 tagcls['intro'] = dat['creator']['intro']
-    #             yield tagcls
-    #         if self.page < 100:
-    #             yield scrapy.Request(url=bb + '?start=' + str(self.page), callback=self.parse_tags)
-    #     else:
-    #         ss = re.findall('discovery(.*)', bb)[0]
-    #         api_url = 'https://api.juzicon.com/n0/discovery/posts' + ss
-    #         self.page = 0
-    #         yield scrapy.Request(url=api_url, callback=self.parse_tags)
+    def parse_tags(self, response):
+        bb = response.url
+        self.page += 1
+        if 'posts' in bb:
+            data_list = json.loads(response.text)['data']['list']
+            for dat in data_list:
+                tagcls = JuzitagsField()
+                if bool(dat['tags']):
+                    tagcls['tags'] = ','.join(dat['tags'])
+                else:
+                    tagcls['tags'] = '其他'
+                # print(tagcls['tags'])
+                tagcls['clsid_id'] = 4
+                tagcls['con_time'] = dat['createdAt']
+                tagcls['content_list'] = str([dat['content'], dat['referWorksName'], dat['cntComment'], dat['cntLike']])
+                # print(tagcls['content_list'])
+                # 句子去重id
+                tagcls['uuid'] = dat['uuid']
+                if 'creator' in dat.keys():
+                    tagcls['img_url'] = dat['creator']['avatar']
+                    print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'*2, tagcls['img_url'])
+                    tagcls['title'] = dat['creator']['nickname']
+                    tagcls['intro'] = dat['creator']['intro']
+                yield tagcls
+            if self.page < 100:
+                yield scrapy.Request(url=bb + '?start=' + str(self.page), callback=self.parse_tags)
+        else:
+            ss = re.findall('discovery(.*)', bb)[0]
+            api_url = 'https://api.juzicon.com/n0/discovery/posts' + ss
+            self.page = 0
+            yield scrapy.Request(url=api_url, callback=self.parse_tags)

@@ -75,7 +75,7 @@ class JuziconproField(Field):
 
     def insert_db_by_data(self, subdict):
 
-        sql, data = get_sql_parmase_by_dict(subdict, 'spiderapp_jiziconpro')
+        sql, data = get_sql_parmase_by_dict(subdict, 'spiderapp_juziconpro')
 
         return sql,data
 class JuzitagsField(Field):

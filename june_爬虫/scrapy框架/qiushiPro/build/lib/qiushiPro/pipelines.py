@@ -22,7 +22,7 @@ class QiushiImagePipeline(ImagesPipeline):
             return None
         # 截取图片地址,发起请求
         if item['img_url'] != '0':
-            if 'https:' in item['img_url']:
+            if 'http:' in item['img_url']:
                 imageurl = item['img_url']
             else:
                 imageurl = 'https:' + item['img_url']
@@ -31,8 +31,9 @@ class QiushiImagePipeline(ImagesPipeline):
     def item_completed(self, results, item, info):
         paths = [subdict['path'] for ok, subdict in results if ok]
         if paths:
-            os.rename(image_store + '/'+ paths[0], image_store + '/'+ str(item['clsid']) + '/' + item['title'] + '.jpg')
-            item['localImgPath'] = image_store + '/' + str(item['clsid']) + '/'+ item['title'] + '.jpg'
+            # print('xxxxxxxxxxxxxxxxxxxxxxxxxx',paths[0][5:-5:2])
+            os.rename(image_store + '/'+ paths[0], image_store + '/'+ str(item['clsid_id']) + '/' + paths[0][5:-5:2] + '.jpg')
+            item['localImgPath'] = image_store + '/' + str(item['clsid_id']) + '/'+ paths[0][5:-5:2] + '.jpg'
             # except Exception as err:
             #     item['localImgPath'] = '未知'
             #     return item

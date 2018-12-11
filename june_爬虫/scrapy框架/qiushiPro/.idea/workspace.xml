@@ -45,26 +45,32 @@
     <session id="495431751">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.27" value="4" />
+          <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cfg" value="1" />
+          <entry key="cfg" value="2" />
           <entry key="jpg" value="38" />
-          <entry key="py" value="43" />
+          <entry key="py" value="45" />
           <entry key="spiderapp_qiushipro" value="2" />
           <entry key="sql" value="1" />
         </counts>
@@ -73,8 +79,8 @@
         <counts>
           <entry key="Database Element" value="2" />
           <entry key="Image" value="38" />
-          <entry key="Ini" value="1" />
-          <entry key="Python" value="43" />
+          <entry key="Ini" value="2" />
+          <entry key="Python" value="45" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -83,14 +89,14 @@
         <counts>
           <entry key="Ini" value="14" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="9157" />
+          <entry key="Python" value="9202" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cfg" value="14" />
-          <entry key="py" value="9157" />
+          <entry key="py" value="9202" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
@@ -98,10 +104,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qiushiPro/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
+            <state relative-caret-position="425">
               <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding>
                 <element signature="e#193#202#0" expanded="true" />
@@ -110,11 +116,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qiushiPro/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1625">
-              <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+            <state relative-caret-position="370">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qiushiPro/spiders/qiushibaike.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -136,8 +160,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qiushiPro/spiders/scene_poetryPro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1175">
-              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+            <state relative-caret-position="1375">
+              <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+              <folding>
+                <element signature="e#24#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qiushiPro/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2275">
+              <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -165,13 +201,13 @@
         <option value="$PROJECT_DIR$/qiushiPro/__init__.py" />
         <option value="$PROJECT_DIR$/qiushiPro/main.py" />
         <option value="$PROJECT_DIR$/qiushiPro/spiders/tag_clsPro.py" />
-        <option value="$PROJECT_DIR$/qiushiPro/settings.py" />
-        <option value="$PROJECT_DIR$/scrapy.cfg" />
         <option value="$PROJECT_DIR$/qiushiPro/spiders/qiushibaike.py" />
         <option value="$PROJECT_DIR$/qiushiPro/spiders/juzicon.py" />
         <option value="$PROJECT_DIR$/qiushiPro/items.py" />
-        <option value="$PROJECT_DIR$/qiushiPro/spiders/scene_poetryPro.py" />
         <option value="$PROJECT_DIR$/qiushiPro/pipelines.py" />
+        <option value="$PROJECT_DIR$/qiushiPro/spiders/scene_poetryPro.py" />
+        <option value="$PROJECT_DIR$/scrapy.cfg" />
+        <option value="$PROJECT_DIR$/qiushiPro/settings.py" />
       </list>
     </option>
   </component>
@@ -192,6 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,39 +243,12 @@
             </path>
             <path>
               <item name="qiushiPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qiushiPro" type="462c0819:PsiDirectoryNode" />
-              <item name="qiushiPro" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qiushiPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qiushiPro" type="462c0819:PsiDirectoryNode" />
-              <item name="qiushiPro" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qiushiPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qiushiPro" type="462c0819:PsiDirectoryNode" />
-              <item name="qiushiPro" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qiushiPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qiushiPro" type="462c0819:PsiDirectoryNode" />
-              <item name="qiushiPro" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qiushiPro" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,7 +317,7 @@
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="939" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2206288" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11141754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -321,7 +331,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002758" side_tool="true" weight="0.32880098" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5648949" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29913473" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32880098" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -468,34 +478,7 @@
         <state relative-caret-position="-300" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://75e434a3-9c2d-47c9-b4e2-8aeb5aa62243/schema/junePro/table/spiderapp_qiushipro">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qiushiPro/spiders/qiushibaike.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qiushiPro/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="91" column="22" lean-forward="true" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://75e434a3-9c2d-47c9-b4e2-8aeb5aa62243/schema/junePro/table/spiderapp_qiushipro" />
     <entry file="file://$PROJECT_DIR$/qiushiPro/image/4/1954.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -516,7 +499,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qiushiPro/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
+        <state relative-caret-position="425">
           <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
           <folding>
             <element signature="e#193#202#0" expanded="true" />
@@ -524,10 +507,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qiushiPro/settings.py">
+    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1625">
-          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        <state relative-caret-position="250">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qiushiPro/spiders/qiushibaike.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -545,8 +535,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qiushiPro/spiders/scene_poetryPro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        <state relative-caret-position="1375">
+          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qiushiPro/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2275">
+          <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qiushiPro/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
