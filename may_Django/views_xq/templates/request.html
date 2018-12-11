@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>请求对象</title>
+</head>
+<body>
+    {{ str1 }}
+    {{ str2 }}<br>
+{#method:#}
+{#    <a href="/viewTest/show_method/">get方式</a>#}
+{#    <form method="post" action="/viewTest/show_method/">#}
+{#        <input type="submit" value='post方式'>#}
+{#    </form>#}
+{#{:url('/viewTest/show_method/')}#}
+
+提交数据的两种方式:<br>
+get方式:<br/>
+<a href="/viewTest/show_reqarg/?a=1&b=2&c=python">get方式提交数据</a><br>
+post方式:<br/>
+    <form method="post" action="/viewTest/show_reqarg/">
+        姓名：<input type="text" name="uname"><br/>
+    性别：男<input type="radio" name="gender" value="男"/>
+    女<input type="radio" name="gender" value="女"/><br/>
+    爱好：
+    吃饭<input type="checkbox" name="hobbys" value="吃饭"/>
+    睡觉<input type="checkbox" name="hobbys" value="睡觉"/>
+    打豆豆<input type="checkbox" name="hobbys" value="打豆豆"/><br>
+    <input type="submit" value="提交">
+    </form>
+</body>
+</html>

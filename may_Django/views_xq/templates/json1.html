@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json1</title>
+    <script src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('#btnjson').click(function () {
+
+                $.get('/viewTest/verfiy/',function (data) {
+                    ul = $('#jsonlist')
+                    ul.append('<li>'+data['info']+'</li>')
+                    {#ul.append('<li>'+data['h2']+'</li>')#}
+
+
+
+                })
+
+            }).
+
+        })
+    </script>
+</head>
+<body>
+<input type="button" id="btnjson" value="获取json数据">
+<ul id="jsonlist"></ul>
+</body>
+</html>

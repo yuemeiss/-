@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post方式</title>
+</head>
+<body>
+name:{{ uname }}<br/>
+gender:{{ gender }}<br/>
+hobbys:
+
+<ul>
+    {% for hobby in hobbys %}
+        <li>{{ hobby }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>

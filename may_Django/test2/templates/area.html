@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>地区自关联</title>
+</head>
+<body>
+<h1>输入地区查找他的上级或下级</h1>
+
+<from method="get" action="/area">
+    <label for="um">输入地区</label>
+        <!-- value是默认值，提示信息用：placeholder="用户名/邮箱/手机号" -->
+        <input id="um" type="text" name="username" value="我是value"><br>
+        <input type="submit" value="提交" />
+    </from>
+
+
+
+
+
+{#    <div>当前地区:{{ list.atitle }}</div>#}
+{#    <div>上级地区:{{ list.aparent_id}}</div>#}
+    <ul>
+        所有省:
+        {% for area in list%}
+
+            <li>{{ area.atitle }}</li>
+{#        下级县:#}
+{#            <li>{{ area.areainfo_set.get.atitle }}</li>#}
+        {% endfor %}
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <script src="/static/js/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+
+
+          $('#btn').click(function () {
+              var acc = $('#zh').val();
+              var pwd = $('#mm').val();
+             // $.post('/viewTest/verfiy/',{'acc':acc,'pwd':pwd},function (data){
+              //    {#alert(data['info'])#}
+               //   var h1 = $('h1')
+                 // h1.append(data['info'])
+              // })
+              $.get('/viewTest/verfiy/',{'acc':acc,'pwd':pwd},function (data) {
+
+                  var ul = $('ul')
+                  ul.append('<li>' + data['info'] + '</li>')
+               })
+
+          })
+        })
+    </script>
+</head>
+<body>
+{#<form>#}
+    <h2>账号:</h2>
+    <input type="text" id="zh" name="account">
+    <h2>密码:</h2>
+    <input type="password" id="mm" name="passwd">
+    <br/><br/>
+
+    <input type="submit" id="btn" value="提交">
+
+{#</form>#}
+<ul></ul>
+<a href="/viewTest/red1/">回首页</a>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>蘑菇街</title>
+    <script>
+        {#var name = 'aa';#}
+        function func() {
+            var name = 'bb';
+            function inner(){
+                alert(name)
+            }
+            return inner;
+
+        }
+        var ret = func()
+        ret()
+
+    </script>
+    <style type="text/css">
+		table{
+			/*设置表格的宽度*/
+			{#width: 300px;#}
+			/*居中*/
+			margin: 0 auto;
+			/*边框*/
+            /*border:1px solid black;*/
+            /*table和td边框之间默认有一个距离，通过border-spacing属性可以设置这个距离*/
+            /*border-spacing: 10px;*/
+            /*
+            border-collapse可以用来设置表格的边框合并
+            如果设置了边框合并，则border-spacing自动失效
+            */
+            border-collapse: collapse;
+            /*设置背景样式*/
+			/*background-color: #bfa;*/
+		}
+		/*设置边框*/
+		th, td{
+			border: 1px solid black;
+		}
+		/*设置隔行变色*/
+		tbody > tr:nth-child(even){
+			background-color: #bfa;
+		}
+		/*鼠标移入到tr以后，改变颜色*/
+		tr:hover{
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+<table border="1" width="40%" align="center">
+
+        <!-- 在tr中需要使用td来创建一个单元格，有几个单元格就有几个td -->
+{% for book  in list %}
+     <tr>
+         <td>{{ book.pId }}</td>
+         <td>{{ book.pName }}</td>
+         <td>{{ book.pAge }}</td>
+         <td>{{ book.pGender }}</td>
+         <td>{{ book.pAddress }}</td>
+         <td>{{ book.pPhone }}</td>
+         <td>{{ book.pSalary }}</td>
+         <td>{{ book.pSection }}</td>
+         <td>{{ book.btitle }}</td>
+
+    </tr>
+{% endfor %}
+
+</table>
+{% for g in list1 %}
+    <h2>{{ g.pName }}</h2>
+{% endfor %}
+
+
+</body>
+</html>
